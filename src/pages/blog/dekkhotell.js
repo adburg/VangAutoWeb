@@ -5,7 +5,6 @@ import image from "../../../public/images/articles/dekkhotell.jpg";
 import { motion } from "framer-motion";
 import Layout from "../../components/Layout";
 import AnimatedText from "../../components/AnimatedText";
-import TransitionEffect from "../../components/TransitionEffect";
 
 const FramerImage = motion(Image);
 
@@ -16,7 +15,7 @@ const dekkhotell = () => {
         <title>Vang Auto | Blog - Dekkhotell</title>
         <meta name="description" content="any description" />
       </Head>
-      <TransitionEffect />
+
       <main className="flex w-full flex-col mb-16 items-center justify-center dark:text-light">
         <Layout className="pt-12 mt-8 flex items-center justify-center !p-4 !md:p-12 !lg:p-32 ">
           <div className="flex w-2/3 md:w-full flex-col mb-16 items-center ">

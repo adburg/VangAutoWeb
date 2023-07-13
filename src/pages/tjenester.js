@@ -13,7 +13,6 @@ import acimage from "../../public/images/projects/ac.jpg";
 import serviceimage from "../../public/images/projects/service.jpg";
 import { motion } from "framer-motion";
 import { LinkArrow } from "../components/Icons";
-import TransitionEffect from "../components/TransitionEffect";
 
 const FramerImage = motion(Image);
 
@@ -122,7 +121,6 @@ const Tjenester = () => {
         <title>Vang Auto | Tjenester</title>
         <meta name="description" content="any description" />
       </Head>
-      <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-cener justify-center dark:text-light">
         <Layout className="pt-10">
           <AnimatedText

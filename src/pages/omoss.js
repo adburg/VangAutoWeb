@@ -7,7 +7,6 @@ import Image from "next/image";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Skills from "../components/Skills";
 import Historie from "../components/Historie";
-import TransitionEffect from "../components/TransitionEffect";
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
@@ -40,7 +39,6 @@ const Omoss = () => {
         <title>Vang Auto | Om oss</title>
         <meta name="description" content="any description" />
       </Head>
-      <TransitionEffect />
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-10">
           <AnimatedText

@@ -3,7 +3,6 @@ import AnimatedText from "../components/AnimatedText";
 import Head from "next/head";
 import Layout from "../components/Layout";
 import Confetti from "react-confetti";
-import TransitionEffect from "../components/TransitionEffect";
 
 const Bestilt = () => {
   const [dimensions, setDimensions] = useState({
@@ -26,7 +25,6 @@ const Bestilt = () => {
         <title>Vang Auto | Bestilt </title>
         <meta name="description" content="any description" />
       </Head>
-      <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
         <Layout className="pt-16 min-h-screen">
           <AnimatedText

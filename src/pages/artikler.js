@@ -12,9 +12,7 @@ import article5 from "../../public/images/articles/dekk.jpg";
 import article6 from "../../public/images/articles/sekstito.jpg";
 import article7 from "../../public/images/articles/femtiaar.jpg";
 import article8 from "../../public/images/articles/dekkhotell.jpg";
-
 import { motion, useMotionValue } from "framer-motion";
-import TransitionEffect from "../components/TransitionEffect";
 
 const FramerImage = motion(Image);
 
@@ -116,7 +114,6 @@ const Artikler = () => {
         <title>Vang Auto | Artikler</title>
         <meta name="description" content="any description" />
       </Head>
-      <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
         <Layout className="pt-10">
           <AnimatedText

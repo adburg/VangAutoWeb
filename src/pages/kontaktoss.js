@@ -8,7 +8,6 @@ import addressPic from "../../public/images/contact/addressicon.png";
 import openingPic from "../../public/images/contact/opening.png";
 import Image from "next/image";
 import ContactForm from "../components/ContactForm";
-import TransitionEffect from "../components/TransitionEffect";
 
 const Kontaktoss = () => {
   return (
@@ -17,7 +16,6 @@ const Kontaktoss = () => {
         <title>Vang Auto | Kontakt oss</title>
         <meta name="description" content="any description" />
       </Head>
-      <TransitionEffect />
       <main className="w-full flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-10">
           <AnimatedText

@@ -3,7 +3,6 @@ import ContactForm from "../components/ContactForm";
 import Layout from "../components/Layout";
 import Head from "next/head";
 import React from "react";
-import TransitionEffect from "../components/TransitionEffect";
 
 const Bestilltime = () => {
   return (
@@ -12,7 +11,6 @@ const Bestilltime = () => {
         <title>Vang Auto | Bestill Time</title>
         <meta name="description" content="any description" />
       </Head>
-      <TransitionEffect />
       <main className="flex items-center w-full justify-center text-dark min-h-screen dark:text-light">
         <Layout className="pt-12">
           <div className="flex w-full items-center justify-center flex-col">
