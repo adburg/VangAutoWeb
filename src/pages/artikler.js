@@ -149,7 +149,7 @@ const artikler = () => {
           </h2>
           <ul>
             <Article
-              title="Er ditt AC-anlegg klart for sommerene?"
+              title="Er ditt AC-anlegg klart for sommeren?"
               img={article3}
               date="9. Mai 2023"
               link="/blog/klima"
