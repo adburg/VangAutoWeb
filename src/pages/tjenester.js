@@ -115,7 +115,7 @@ const Service = ({ title, summary, img, link }) => {
   );
 };
 
-const tjenester = () => {
+const Tjenester = () => {
   return (
     <>
       <Head>
@@ -225,4 +225,4 @@ const tjenester = () => {
     </>
   );
 };
-export default tjenester;
+export default Tjenester;

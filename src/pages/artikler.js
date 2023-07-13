@@ -109,7 +109,7 @@ const FeaturedArticle = ({ img, title, date, summary, link }) => {
   );
 };
 
-const artikler = () => {
+const Artikler = () => {
   return (
     <>
       <Head>
@@ -193,4 +193,4 @@ const artikler = () => {
   );
 };
 
-export default artikler;
+export default Artikler;

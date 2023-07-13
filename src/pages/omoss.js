@@ -33,7 +33,7 @@ const AnimatedNumbers = ({ value }) => {
   return <span ref={ref}></span>;
 };
 
-const omoss = () => {
+const Omoss = () => {
   return (
     <>
       <Head>
@@ -127,4 +127,4 @@ const omoss = () => {
   );
 };
 
-export default omoss;
+export default Omoss;

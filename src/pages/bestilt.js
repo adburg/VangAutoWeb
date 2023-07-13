@@ -5,7 +5,7 @@ import Layout from "../components/Layout";
 import Confetti from "react-confetti";
 import TransitionEffect from "../components/TransitionEffect";
 
-const bestilt = () => {
+const Bestilt = () => {
   const [dimensions, setDimensions] = useState({
     width: 0,
     height: 0
@@ -46,4 +46,4 @@ const bestilt = () => {
   );
 };
 
-export default bestilt;
+export default Bestilt;

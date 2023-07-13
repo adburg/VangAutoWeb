@@ -10,7 +10,7 @@ import Image from "next/image";
 import ContactForm from "../components/ContactForm";
 import TransitionEffect from "../components/TransitionEffect";
 
-const kontaktoss = () => {
+const Kontaktoss = () => {
   return (
     <>
       <Head>
@@ -153,4 +153,4 @@ const kontaktoss = () => {
   );
 };
 
-export default kontaktoss;
+export default Kontaktoss;

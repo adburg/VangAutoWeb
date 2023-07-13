@@ -5,7 +5,7 @@ import Head from "next/head";
 import React from "react";
 import TransitionEffect from "../components/TransitionEffect";
 
-const bestilltime = () => {
+const Bestilltime = () => {
   return (
     <>
       <Head>
@@ -35,4 +35,4 @@ const bestilltime = () => {
   );
 };
 
-export default bestilltime;
+export default Bestilltime;
