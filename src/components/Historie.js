@@ -68,7 +68,7 @@ const Historie = () => {
           <Details
             happening="Vang Auto etableres"
             time="1960"
-            details="Gunnar Berget og Reidar Tangen åpner dørene hos Vang Auto for første gang. Gunnar, far av Per Asbjørn var daglig leder for bedriften i årene som ventet, sammen men kompanjong Reidar."
+            details="Gunnar Berget og Reidar Tangen åpner dørene hos Vang Auto for første gang. De driver verkstedet sammen i over 25 år, frem til Reidar trekker seg ut i 1986."
           />
         </ul>
       </div>

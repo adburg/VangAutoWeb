@@ -40,9 +40,7 @@ const MovingImg = ({ title, img, link }) => {
       onMouseMove={handleMouse}
       onMouseLeave={handleMouseLeave}
     >
-      <h2 className="capitalize text-xl font-semibold hover:underline">
-        {title}
-      </h2>
+      <h2 className="text-xl font-semibold hover:underline">{title}</h2>
       <FramerImage
         style={{ x: x, y: y }}
         initial={{ opacity: 0 }}
@@ -93,7 +91,7 @@ const FeaturedArticle = ({ img, title, date, summary, link }) => {
         />
       </Link>
       <Link href={link} target="_self">
-        <h2 className="capitalize text-2xl font-bold my-2 text-dark dark:text-light mt-4 hover:underline xs:text-lg">
+        <h2 className="text-2xl font-bold my-2 text-dark dark:text-light mt-4 hover:underline xs:text-lg">
           {title}
         </h2>
       </Link>
@@ -165,7 +163,7 @@ const Artikler = () => {
               link="/blog/service"
             />
             <Article
-              title="62 Begivenhetsrike År"
+              title="62 begivenhetsrike år"
               img={article6}
               date="30. Mai 2022"
               link="/blog/sekstitoaar"
@@ -178,7 +176,7 @@ const Artikler = () => {
               link="/blog/femtiaar"
             />
             <Article
-              title="Dekkhotell - Bildekk på spa"
+              title="Dekkhotell - bildekk på spa"
               img={article8}
               date="2. Oktober 2020"
               link="/blog/dekkhotell"

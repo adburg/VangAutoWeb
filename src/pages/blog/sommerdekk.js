@@ -20,7 +20,7 @@ const sommerdekk = () => {
           <div className="flex w-2/3 md:w-full flex-col mb-16 items-center">
             <AnimatedText
               text="Våren og sommerdekkene er rett rundt hjørnet"
-              className="mb-6 !text-3xl "
+              className="mb-6 !text-3xl !normal-case"
             />
             <div className="items-center border border-solid rounded-br-3xl rounded-3xl border-dark bg-light p-12 md:p-4 dark:border-light dark:bg-dark">
               <div className="w-full flex justify-center overflow-hidden rounded-lg ">

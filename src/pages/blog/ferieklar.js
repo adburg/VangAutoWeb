@@ -18,7 +18,10 @@ const ferieklar = () => {
       <main className="flex w-full flex-col mb-16 items-center justify-center">
         <Layout className="pt-12 mt-8 flex items-center justify-center !p-4 !md:p-12 !lg:p-32">
           <div className="flex w-2/3 md:w-full flex-col mb-16 items-center">
-            <AnimatedText text="Ferieklar bil?" className="mb-8 !text-3xl" />
+            <AnimatedText
+              text="Ferieklar bil?"
+              className="mb-8 !text-3xl !normal-case"
+            />
             <div className="items-center border border-solid rounded-br-3xl rounded-3xl border-dark bg-light p-12 md:p-4 dark:border-white dark:bg-dark">
               <div className="w-full flex justify-center overflow-hidden rounded-lg ">
                 <FramerImage

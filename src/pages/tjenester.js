@@ -127,11 +127,11 @@ const Tjenester = () => {
             text="Tjenester"
             className="mb-2 sm:mb-3 xs:mb-1 sm:!text-6xl xs:!text-4xl"
           />
-          <p className=" font-extrabold capitalize text-lg mt-6 md:mt-3 text-center sm:mt-2 sm:mb-3 text-dark lg:text-md md:text-sm sm:text-xs dark:text-light">
+          <p className=" font-extrabold text-lg mt-6 md:mt-3 text-center sm:mt-2 sm:mb-3 text-dark lg:text-md md:text-sm sm:text-xs dark:text-light">
             {" "}
-            EU-kontroll - Reparasjon/Service - AC-Service - Firehjulskontroll -
-            Dekkskift/dekkhotell - Flushing Og Oljeskift - Karosseri Og
-            Frontrute
+            EU-kontroll • Reparasjon/Service • AC-Service • Firehjulskontroll •
+            Dekkskift/Dekkhotell • Flushing og oljeskift • Karosseri og
+            frontrute
           </p>
           <p className="font-semibold  text-lg mb-6 md:mb-3 mt-2 md:mt-1 text-center sm:hidden text-dark lg:text-base md:text-sm sm:text-xs dark:text-light">
             {" "}
@@ -199,7 +199,7 @@ const Tjenester = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Service
-                title="Flushing Av Girkasse"
+                title="Flushing av girkasse"
                 img={oljeimage}
                 link="/bestilltime"
                 summary="De fleste nyere biler er utstyrt med en automat girkasse. For å opprettholde girkassens normale funksjon,
@@ -209,7 +209,7 @@ const Tjenester = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Service
-                title="Karosseri Og Frontrute"
+                title="Karosseri og frontrute"
                 img={karosseriimage}
                 link="/bestilltime"
                 summary="Hos oss er det mulig å utføre flere typer karosserireparasjoner. Dette innebærer blant annet at vi kan rette

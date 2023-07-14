@@ -21,7 +21,7 @@ const service = () => {
             <AnimatedText
               text="Vi tar service på bilen din – også elbil
               "
-              className="mb-6 !text-3xl"
+              className="mb-6 !text-3xl !normal-case"
             />
             <div className="items-center border border-solid rounded-br-3xl rounded-3xl border-dark bg-light p-12 md:p-4 dark:border-light dark:bg-dark">
               <div className="w-full flex justify-center overflow-hidden rounded-lg ">

@@ -17,7 +17,7 @@ const Footer = () => {
             target={"_blank"}
             className="underline underline-offset-2"
           >
-            Berget Cosulting
+            Berget Consulting
           </Link>
         </div>
         <Link
