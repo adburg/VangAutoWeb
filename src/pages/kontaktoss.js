@@ -14,7 +14,11 @@ const Kontaktoss = () => {
     <>
       <Head>
         <title>Vang Auto | Kontakt oss</title>
-        <meta name="description" content="any description" />
+        <meta
+          name="description"
+          content="Vang Auto bilverksted mellom Hamar og Eleverum. 
+          Ta kontakt for å få svar på dine spørsmål, eller bestill time nå."
+        />
       </Head>
       <main className="w-full flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-10">

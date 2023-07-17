@@ -110,7 +110,11 @@ const Artikler = () => {
     <>
       <Head>
         <title>Vang Auto | Artikler</title>
-        <meta name="description" content="any description" />
+        <meta
+          name="description"
+          content="Vang Auto bilverksted mellom Hamar og Eleverum. 
+        Les våre artikler for tips om hvordan du bør behandle din bil. Bestill time nå eller ring oss."
+        />
       </Head>
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
         <Layout className="pt-10">

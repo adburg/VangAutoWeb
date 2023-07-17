@@ -23,7 +23,7 @@ const Bestilt = () => {
     <>
       <Head>
         <title>Vang Auto | Bestilt </title>
-        <meta name="description" content="any description" />
+        <meta name="robots" content="noindex" />
       </Head>
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
         <Layout className="pt-16 min-h-screen">

@@ -9,7 +9,11 @@ const Bestilltime = () => {
     <>
       <Head>
         <title>Vang Auto | Bestill Time</title>
-        <meta name="description" content="any description" />
+        <meta
+          name="description"
+          content="Vang Auto bilverksted mellom Hamar og Eleverum. 
+        Trenger bilen din en tur på verkstedet? Vi har høy kvalitet og proffesjonelle mekanikere. Bestill time nå."
+        />
       </Head>
       <main className="flex items-center w-full justify-center text-dark min-h-screen dark:text-light">
         <Layout className="pt-12">

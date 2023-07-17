@@ -37,7 +37,11 @@ const Omoss = () => {
     <>
       <Head>
         <title>Vang Auto | Om oss</title>
-        <meta name="description" content="any description" />
+        <meta
+          name="description"
+          content="Vang Auto bilverksted mellom Hamar og Eleverum. 
+        Over 60 års bransjeerfaring og flere enn 10 sertifiserte mekanikere. Les mer om oss her."
+        />
       </Head>
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-10">

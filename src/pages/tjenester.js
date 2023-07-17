@@ -83,7 +83,6 @@ const Service = ({ title, summary, img, link }) => {
           src={img}
           alt={title}
           className="w-full h-auto"
-          priority={true}
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.2 }}
         />
@@ -119,7 +118,11 @@ const Tjenester = () => {
     <>
       <Head>
         <title>Vang Auto | Tjenester</title>
-        <meta name="description" content="any description" />
+        <meta
+          name="description"
+          content="Trenger din bil EU-kontroll, service, dekkhotell eller liknende? 
+        Sjekk ut våre tjenester her. Vi reparerer også lette lastebiler og bobiler."
+        />
       </Head>
       <main className="w-full mb-16 flex flex-col items-cener justify-center dark:text-light">
         <Layout className="pt-10">

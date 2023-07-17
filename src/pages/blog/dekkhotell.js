@@ -12,8 +12,11 @@ const dekkhotell = () => {
   return (
     <>
       <Head>
-        <title>Vang Auto | Blog - Dekkhotell</title>
-        <meta name="description" content="any description" />
+        <title>Vang Auto | Blogg - Dekkhotell</title>
+        <meta
+          name="description"
+          content="Vang Auto Blogg. Les våre artikler for nyttig informasjon om bilen din, og bestill en time direkte i nettsiden eller ring oss."
+        />
       </Head>
 
       <main className="flex w-full flex-col mb-16 items-center justify-center dark:text-light">
