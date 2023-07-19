@@ -1,12 +1,5 @@
-import React, { useState, FormEvent } from "react";
+import React from "react";
 import { motion } from "framer-motion";
-import { useRouter } from "next/router";
-
-const encode = (data) => {
-  return Object.keys(data)
-    .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-    .join("&");
-};
 
 const ContactForm = () => {
   return (
