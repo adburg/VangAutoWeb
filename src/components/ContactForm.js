@@ -2,18 +2,44 @@ import React, { useState, FormEvent } from "react";
 import { motion } from "framer-motion";
 import { useRouter } from "next/router";
 
+const encode = (data) => {
+  return Object.keys(data)
+    .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&");
+};
+
 const ContactForm = () => {
+  const [name, setName] = useState("");
+  const [phone, setPhone] = useState("");
+  const [regNr, setRegNr] = useState("");
+  const [message, setMessage] = useState("");
+  const [type, setType] = useState("");
+
+  const router = useRouter();
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({ "form-name": "contact", ...this.state })
+    })
+      .then(() => alert("Success!"))
+      .catch((error) => alert(error));
+
+    e.preventDefault();
+  };
+
   return (
     <>
-      <input type="hidden" name="form-name" value="contact" />
       <form
         action="/bestilt"
         name="contact"
-        method="POST"
-        onSubmit="submit"
+        method="post"
         className="flex flex-col gap-y-8 pb-14 p-6 items-center rounded-2xl border-2 dark:border-light border-dark"
         data-netlify="true"
       >
+        <input type="hidden" name="form-name" value="contact" />
         <p className="font-bold text-lg text-dark !text-center">
           Kontaktskjema
         </p>
