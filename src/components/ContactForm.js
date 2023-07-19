@@ -5,7 +5,9 @@ import { useRouter } from "next/router";
 const ContactForm = () => {
   return (
     <>
+      <input type="hidden" name="form-name" value="contact" />
       <form
+        action="/bestilt"
         name="contact"
         method="POST"
         onSubmit="submit"
@@ -62,6 +64,7 @@ const ContactForm = () => {
           className="bg-transparent border-2 pb-8 px-2 resize-none mb-4 border-dark rounded-xl w-full placeholder:font-medium font-medium text-dark dark:text-light placeholder:text-dark/75 focus:border-blue-400 dark:border-light dark:placeholder:text-light/75"
         ></textarea>
         <motion.button
+          name="submit"
           type="submit"
           whileHover={{ scale: 1.01 }}
           whileTap={{ scale: 0.95 }}
