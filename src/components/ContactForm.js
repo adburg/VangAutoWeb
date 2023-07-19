@@ -47,8 +47,9 @@ const ContactForm = () => {
         <select
           className="bg-transparent border-2 p-2 border-dark rounded-xl w-full font-medium text-dark/75 focus:border-blue-400 dark:border-light dark:text-light/75"
           onChange={(e) => setType(e.target.value)}
+          defaultValue={"DEFAULT"}
         >
-          <option value="0" disabled selected>
+          <option value="DEFAULT" disabled>
             Type Oppdrag
           </option>
           <option value="EU-Kontroll">EU-Kontroll</option>
