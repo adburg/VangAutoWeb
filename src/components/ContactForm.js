@@ -9,27 +9,6 @@ const encode = (data) => {
 };
 
 const ContactForm = () => {
-  const [name, setName] = useState("");
-  const [phone, setPhone] = useState("");
-  const [regNr, setRegNr] = useState("");
-  const [message, setMessage] = useState("");
-  const [type, setType] = useState("");
-
-  const router = useRouter();
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", ...this.state })
-    })
-      .then(() => alert("Success!"))
-      .catch((error) => alert(error));
-
-    e.preventDefault();
-  };
-
   return (
     <>
       <form
