@@ -2,13 +2,45 @@ import React, { useState, FormEvent } from "react";
 import { motion } from "framer-motion";
 import { useRouter } from "next/router";
 
-const ContactForm = () => {
+const ContactForm2 = () => {
+  const [name, setName] = useState("");
+  const [phone, setPhone] = useState("");
+  const [regNr, setRegNr] = useState("");
+  const [message, setMessage] = useState("");
+  const [type, setType] = useState("");
+
+  const router = useRouter();
+
+  const onSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        body: JSON.stringify({
+          name,
+          phone,
+          regNr,
+          message,
+          type
+        }),
+        headers: {
+          "content-type": "application/json"
+        }
+      });
+      router.push("/bestilt");
+    } catch (err) {
+      console.error("Err", err);
+      alert("Error. Bestilling ikke send.");
+    }
+  };
+
   return (
     <>
       <form
         name="contact"
+        onSubmit={onSubmit}
         method="POST"
-        onSubmit="submit"
         className="flex flex-col gap-y-8 pb-14 p-6 items-center rounded-2xl border-2 dark:border-light border-dark"
         data-netlify="true"
       >
@@ -16,8 +48,8 @@ const ContactForm = () => {
           Kontaktskjema
         </p>
         <select
-          name="type"
           className="bg-transparent border-2 p-2 border-dark rounded-xl w-full font-medium text-dark/75 focus:border-blue-400 dark:border-light dark:text-light/75"
+          onChange={(e) => setType(e.target.value)}
           defaultValue={"DEFAULT"}
         >
           <option value="DEFAULT" disabled>
@@ -32,14 +64,16 @@ const ContactForm = () => {
           <option value="Annet">Annet</option>
         </select>
         <input
-          name="name"
+          onChange={(e) => setName(e.target.value)}
+          value={name}
           required
           type="text"
           placeholder="Navn"
           className="bg-transparent border-2 p-2 border-dark rounded-xl w-full placeholder:font-medium font-medium text-dark dark:text-light placeholder:text-dark/75 focus:border-blue-400 dark:border-light dark:placeholder:text-light/75"
         />
         <input
-          name="phone"
+          onChange={(e) => setPhone(e.target.value)}
+          value={phone}
           required
           minLength={8}
           maxLength={14}
@@ -48,7 +82,8 @@ const ContactForm = () => {
           className="bg-transparent border-2 p-2 border-dark rounded-xl w-full placeholder:font-medium font-medium text-dark dark:text-light placeholder:text-dark/75 focus:border-blue-400 dark:border-light dark:placeholder:text-light/75"
         />
         <input
-          name="regNr"
+          onChange={(e) => setRegNr(e.target.value)}
+          value={regNr}
           type="text"
           required
           minLength={7}
@@ -57,7 +92,8 @@ const ContactForm = () => {
           className="bg-transparent border-2 p-2 border-dark rounded-xl w-full placeholder:font-medium font-medium text-dark dark:text-light placeholder:text-dark/75 focus:border-blue-400 dark:border-light dark:placeholder:text-light/75"
         />
         <textarea
-          name="message"
+          onChange={(e) => setMessage(e.target.value)}
+          value={message}
           placeholder="Om Oppdraget"
           className="bg-transparent border-2 pb-8 px-2 resize-none mb-4 border-dark rounded-xl w-full placeholder:font-medium font-medium text-dark dark:text-light placeholder:text-dark/75 focus:border-blue-400 dark:border-light dark:placeholder:text-light/75"
         ></textarea>
@@ -74,4 +110,4 @@ const ContactForm = () => {
   );
 };
 
-export default ContactForm;
+export default ContactForm2;
