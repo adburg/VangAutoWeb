@@ -3,7 +3,6 @@ import AnimatedText from "../components/AnimatedText";
 import Head from "next/head";
 import Layout from "../components/Layout";
 import Confetti from "react-confetti";
-import Script from "next/script";
 
 const Bestilt = () => {
   const [dimensions, setDimensions] = useState({
