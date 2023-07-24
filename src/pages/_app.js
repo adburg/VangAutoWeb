@@ -13,7 +13,6 @@ const montserrat = Montserrat({
 
 export default function App({ Component, pageProps }) {
   const router = useRouter();
-  const id = process.env.GOOGLE_ID;
   return (
     <>
       <Head>
@@ -23,7 +22,7 @@ export default function App({ Component, pageProps }) {
       <Script
         id="googleads"
         strategy="afterInteractive"
-        src={`https://www.googletagmanager.com/gtag/js?id=AW-11095667432`}
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ID}`}
       />
       <Script id="google-analytics" strategy="afterInteractive">
         {`
@@ -31,7 +30,7 @@ export default function App({ Component, pageProps }) {
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
       
-        gtag('config', 'AW-11095667432');
+        gtag('config', '${process.env.GOOGLE_ID}');
         `}
       </Script>
 

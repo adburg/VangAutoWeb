@@ -6,7 +6,6 @@ import Confetti from "react-confetti";
 import Script from "next/script";
 
 const Bestilt = () => {
-  const id = process.env.GOOGLE_ID;
   const [dimensions, setDimensions] = useState({
     width: 0,
     height: 0
@@ -29,7 +28,7 @@ const Bestilt = () => {
       </Head>
       <Script strategy="afterInteractive" id="ads">
         {`
-          gtag('event', 'conversion', {'send_to': 'AW-11095667432/9zRMCL_52sAYEOjl6aop'});
+          gtag('event', 'conversion', {'send_to': '${process.env.GOOGLE_ID}/9zRMCL_52sAYEOjl6aop'});
         `}
       </Script>
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
