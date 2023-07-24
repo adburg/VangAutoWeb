@@ -26,11 +26,6 @@ const Bestilt = () => {
         <title>Vang Auto | Bestilt </title>
         <meta name="robots" content="noindex" />
       </Head>
-      <Script strategy="afterInteractive" id="ads">
-        {`
-          gtag('event', 'conversion', {'send_to': '${process.env.GOOGLE_ID}/9zRMCL_52sAYEOjl6aop'});
-        `}
-      </Script>
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
         <Layout className="pt-16 min-h-screen">
           <AnimatedText
