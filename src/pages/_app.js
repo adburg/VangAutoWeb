@@ -21,6 +21,7 @@ export default function App({ Component, pageProps }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Script
+        id="googleads"
         strategy="afterInteractive"
         src={`https://www.googletagmanager.com/gtag/js?id=${id}`}
       />

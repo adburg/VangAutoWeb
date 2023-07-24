@@ -27,7 +27,7 @@ const Bestilt = () => {
         <title>Vang Auto | Bestilt </title>
         <meta name="robots" content="noindex" />
       </Head>
-      <Script strategy="afterInteractive">
+      <Script strategy="afterInteractive" id="ads">
         {`
           gtag('event', 'conversion', {'send_to': '${id}/9zRMCL_52sAYEOjl6aop'});
         `}
