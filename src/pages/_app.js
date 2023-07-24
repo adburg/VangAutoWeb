@@ -6,6 +6,8 @@ import { Montserrat } from "next/font/google";
 import Head from "next/head";
 import { useRouter } from "next/router";
 
+const GA_MEASUREMENT_ID = process.env.GOOGLE_ID;
+
 const montserrat = Montserrat({
   subsets: ["latin"],
   variable: "--font-mont"
@@ -22,7 +24,7 @@ export default function App({ Component, pageProps }) {
       <Script
         id="googleads"
         strategy="afterInteractive"
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ID}`}
+        src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
       />
       <Script id="google-analytics" strategy="afterInteractive">
         {`
@@ -30,7 +32,7 @@ export default function App({ Component, pageProps }) {
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
       
-        gtag('config', '${process.env.GOOGLE_ID}');
+        gtag('config', '${GA_MEASUREMENT_ID}');
         `}
       </Script>
 
