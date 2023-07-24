@@ -1,3 +1,4 @@
+import Script from "next/script";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 import "../styles/globals.css";
@@ -12,12 +13,27 @@ const montserrat = Montserrat({
 
 export default function App({ Component, pageProps }) {
   const router = useRouter();
+  const id = process.env.GOOGLE_ID;
   return (
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Script
+        strategy="afterInteractive"
+        src={`https://www.googletagmanager.com/gtag/js?id=${id}`}
+      />
+      <Script id="google-ads" strategy="afterInteractive">
+        {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+      
+        gtag('config', '${id}');
+        `}
+      </Script>
+
       <main
         className={
           "${montserrat.variable} font-mont bg-light dark:bg-dark w-full min-h-screen"
