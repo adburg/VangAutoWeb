@@ -18,7 +18,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Script
         strategy="lazyOnload"
-        id="google-tag"
+        id="google-tag-analytics"
         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
       />
       <Script strategy="lazyOnload" id="google-analytics">
@@ -27,6 +27,21 @@ export default function App({ Component, pageProps }) {
                     function gtag(){dataLayer.push(arguments);}
                     gtag('js', new Date());
                     gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+                    page_path: window.location.pathname,
+                    });
+        `}
+      </Script>
+      <Script
+        strategy="lazyOnload"
+        id="google-tag-ads"
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ADS}`}
+      />
+      <Script strategy="lazyOnload" id="google-ads">
+        {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ADS}', {
                     page_path: window.location.pathname,
                     });
         `}
