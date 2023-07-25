@@ -15,8 +15,8 @@ export default function Home() {
         <meta
           name="description"
           content="Vang Auto - lett tilgjengelig fra både Hamar,
-                Løten og Elverum, som leverer reparasjon av biler, bobiler og
-                lette lastebiler"
+                Løten og Elverum. Reparasjon av biler, bobiler og
+                lette lastebiler."
         />
       </Head>
 
