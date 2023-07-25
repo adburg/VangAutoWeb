@@ -14,19 +14,22 @@ const montserrat = Montserrat({
 export default function App({ Component, pageProps }) {
   const router = useRouter();
 
+  const ads = process.env.GOOGLE_ADS;
+  const analytics = process.env.GOOGLE_ANALYTICS;
+
   return (
     <>
       <Script
         strategy="afterInteractive"
         id="google-tag-analytics"
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}
+        src={`https://www.googletagmanager.com/gtag/js?id=${analytics}`}
       />
       <Script strategy="afterInteractive" id="google-analytics">
         {`
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
                     gtag('js', new Date());
-                    gtag('config', '${process.env.GOOGLE_ANALYTICS}', {
+                    gtag('config', '${analytics}', {
                     page_path: window.location.pathname,
                     });
         `}
@@ -34,14 +37,14 @@ export default function App({ Component, pageProps }) {
       <Script
         strategy="afterInteractive"
         id="google-tag-ads"
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ADS}`}
+        src={`https://www.googletagmanager.com/gtag/js?id=${ads}`}
       />
       <Script strategy="afterInteractive" id="google-ads">
         {`
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
                     gtag('js', new Date());
-                    gtag('config', '${process.env.GOOGLE_ADS}', {
+                    gtag('config', '${ads}', {
                     page_path: window.location.pathname,
                     });
         `}
