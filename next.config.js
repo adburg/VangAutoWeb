@@ -1,6 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true
+  reactStrictMode: true,
+  env: {
+    GOOGLE_ADS: process.env.GOOGLE_ADS,
+    GOOGLE_ANALYTICS: process.env.GOOGLE_ANALYTICS
+  }
 };
 
 module.exports = {

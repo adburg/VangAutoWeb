@@ -17,11 +17,11 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Script
-        strategy="lazyOnload"
+        strategy="afterInteractive"
         id="google-tag-analytics"
         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}
       />
-      <Script strategy="lazyOnload" id="google-analytics">
+      <Script strategy="afterInteractive" id="google-analytics">
         {`
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
@@ -32,11 +32,11 @@ export default function App({ Component, pageProps }) {
         `}
       </Script>
       <Script
-        strategy="lazyOnload"
+        strategy="afterInteractive"
         id="google-tag-ads"
         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ADS}`}
       />
-      <Script strategy="lazyOnload" id="google-ads">
+      <Script strategy="afterInteractive" id="google-ads">
         {`
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
