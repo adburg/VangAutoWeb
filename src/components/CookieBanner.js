@@ -21,8 +21,6 @@ export default function CookieBanner() {
     });
 
     setLocalStorage("cookie_consent", cookieConsent);
-
-    console.log("Cookie consent:", cookieConsent);
   }, [cookieConsent]);
 
   return (
