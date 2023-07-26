@@ -37,7 +37,7 @@ const cookies = () => {
                   page describes what information they gather, how we use it and
                   why we sometimes need to store these cookies. We will also
                   share how you can prevent these cookies from being stored
-                  however this may downgrade or 'break' certain elements of the
+                  however this may downgrade or break certain elements of the
                   sites functionality.
                 </p>
                 <p className="mt-4 font-bold text-xl xs:text-lg text-dark dark:text-light">
@@ -103,8 +103,8 @@ const cookies = () => {
                 </p>
                 <p className="my-2 font-medium text-dark xs:text-sm dark:text-light">
                   Hopefully that has clarified things for you and as was
-                  previously mentioned if there is something that you aren't
-                  sure whether you need or not it's usually safer to leave
+                  previously mentioned if there is something that you are not
+                  sure whether you need or not it is usually safer to leave
                   cookies enabled in case it does interact with one of the
                   features you use on our site.
                 </p>
@@ -113,7 +113,7 @@ const cookies = () => {
                   can contact us through one of our preferred contact methods:
                 </p>
                 <li className="mb-2 font-medium text-dark xs:text-sm dark:text-light">
-                  Phone: +4762595733
+                  Phone: +47 625 95 733
                 </li>
               </div>
             </div>
