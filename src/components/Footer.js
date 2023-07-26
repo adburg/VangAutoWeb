@@ -21,11 +21,11 @@ const Footer = () => {
           </Link>
         </div>
         <Link
-          href="https://portfolio-c91b3.web.app"
-          target={"_blank"}
+          href="/cookies"
+          target={"_self"}
           className="underline underline-offset-2"
         >
-          Kontakt Utvikler
+          Cookie Policy
         </Link>
       </Layout>
     </footer>

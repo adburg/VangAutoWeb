@@ -31,8 +31,8 @@ export default function CookieBanner() {
         cookieConsent != null ? "hidden" : "flex"
       }`}
     >
-      <div className="fixed bottom-0 left-0 right-0 flex flex-row gap-6 md:flex-col items-center justify-between px-8 py-8 bg-light">
-        <Link href="/info/cookies">
+      <div className="fixed bottom-0 left-0 right-0 flex flex-row gap-6 md:flex-col md:text-center items-center justify-between px-8 py-8 bg-light">
+        <Link href="/cookies">
           <p className="md:text-sm">
             This website uses cookies to improve user experience. By using our
             website you consent to all cookies in accordance with our
