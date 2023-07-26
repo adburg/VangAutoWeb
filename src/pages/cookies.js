@@ -110,7 +110,7 @@ const cookies = () => {
                 </p>
                 <p className="my-2 font-medium text-dark xs:text-sm dark:text-light">
                   However if you are still looking for more information then you
-                  can contact us through one of our preferred contact methods:
+                  can contact us through our preferred contact method:
                 </p>
                 <li className="mb-2 font-medium text-dark xs:text-sm dark:text-light">
                   Phone: +47 625 95 733
