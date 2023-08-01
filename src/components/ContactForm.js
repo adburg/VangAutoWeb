@@ -48,6 +48,13 @@ const ContactForm = () => {
           className="bg-transparent border-2 p-2 border-dark rounded-xl w-full placeholder:font-medium font-medium text-dark dark:text-light placeholder:text-dark/75 focus:border-blue-400 dark:border-light dark:placeholder:text-light/75"
         />
         <input
+          name="email"
+          required
+          type="email"
+          placeholder="E-post"
+          className="bg-transparent border-2 p-2 border-dark rounded-xl w-full placeholder:font-medium font-medium text-dark dark:text-light placeholder:text-dark/75 focus:border-blue-400 dark:border-light dark:placeholder:text-light/75"
+        />
+        <input
           name="regNr"
           type="text"
           required
@@ -58,7 +65,7 @@ const ContactForm = () => {
         />
         <textarea
           name="message"
-          placeholder="Om Oppdraget"
+          placeholder="Utfyllende Informasjon"
           className="bg-transparent border-2 pb-8 px-2 resize-none mb-4 border-dark rounded-xl w-full placeholder:font-medium font-medium text-dark dark:text-light placeholder:text-dark/75 focus:border-blue-400 dark:border-light dark:placeholder:text-light/75"
         ></textarea>
         <motion.button

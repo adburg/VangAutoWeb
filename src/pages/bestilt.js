@@ -32,7 +32,7 @@ const Bestilt = () => {
             className="sm:!text-6xl xs:!text-4xl xs:mb-2"
           />
           <p className="font-bold text-xl text-center text-dark dark:text-light">
-            Vi ringer deg opp på angitt telfonnummer for å avtale tidspunkt,
+            Vi tar kontakt på e-post eller telefon for å avtale tidspunkt,
             tjeneste og levering av bil!
           </p>
           <div className="flex items-center justify-center w-full">
