@@ -17,6 +17,10 @@ const dekkhotell = () => {
           name="description"
           content="Vang Auto Blogg. Les våre artikler for nyttig informasjon om bilen din, og bestill en time direkte i nettsiden eller ring oss."
         />
+        <meta
+          property="og:image"
+          content="https://vangauto.no/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdekkhotell.60283d4f.jpg&w=3840&q=75"
+        />
       </Head>
 
       <main className="flex w-full flex-col mb-16 items-center justify-center dark:text-light">
