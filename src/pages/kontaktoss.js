@@ -132,23 +132,6 @@ const Kontaktoss = () => {
               <ContactForm />
             </div>
           </div>
-          <div className="w-full grid grid-cols-12 h-96 mt-24 lg:mt-16 md:mt-12">
-            {/**map */}
-            <div
-              className="col-span-12 flex flex-col items-center justify-center 
-            rounded-3xl border-2 border-solid border-dark bg-light p-2 relative
-             dark:bg-dark dark:border-light"
-            >
-              <div className="absolute top-0 -right-4 -z-10 w-[101%] h-[104%] rounded-[2rem] bg-dark rounded-br-3xl dark:bg-light" />
-
-              <iframe
-                src="https://storage.googleapis.com/maps-solutions-sgnbm2yzki/locator-plus/9d1t/locator-plus.html"
-                className="w-full h-full rounded-2xl"
-                loading="lazy"
-              ></iframe>
-            </div>
-            {/**form */}
-          </div>
         </Layout>
       </main>
     </>
