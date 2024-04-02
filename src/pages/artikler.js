@@ -148,16 +148,16 @@ const Artikler = () => {
           </h2>
           <ul>
             <Article
+              title="Våren nærmer seg - dekkskift og dekkhotell"
+              img={article4}
+              date="02. April 2024"
+              link="/blog/sommerdekk"
+            />
+            <Article
               title="Er ditt AC-anlegg klart for sommeren?"
               img={article3}
               date="9. Mai 2023"
               link="/blog/klima"
-            />
-            <Article
-              title="Våren og sommerdekkene er rett rundt hjørnet"
-              img={article4}
-              date="20. Mars 2023"
-              link="/blog/sommerdekk"
             />
             <Article
               title="Vi tar service på bilen din – også elbil
