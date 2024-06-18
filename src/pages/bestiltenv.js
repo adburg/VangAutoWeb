@@ -4,7 +4,7 @@ import Head from "next/head";
 import Layout from "../components/Layout";
 import Confetti from "react-confetti";
 
-const Bestilt = () => {
+const Bestiltenv = () => {
   const [dimensions, setDimensions] = useState({
     width: 0,
     height: 0,
@@ -44,4 +44,4 @@ const Bestilt = () => {
   );
 };
 
-export default Bestilt;
+export default Bestiltenv;

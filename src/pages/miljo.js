@@ -2,12 +2,6 @@ import AnimatedText from "../components/AnimatedText";
 import Layout from "../components/Layout";
 import Head from "next/head";
 import React from "react";
-import tlfPic from "../../public/images/contact/phoneicon.png";
-import mailPic from "../../public/images/contact/mailicon.png";
-import addressPic from "../../public/images/contact/addressicon.png";
-import openingPic from "../../public/images/contact/opening.png";
-import Image from "next/image";
-import ContactForm from "../components/ContactForm";
 import ContactFormEnv from "../components/ContactFormEnv";
 
 const Miljo = () => {
@@ -54,7 +48,7 @@ const Miljo = () => {
                 generelt, samtidig som virksomhetens miljøspor må dokumenteres.
                 Vår miljøpolicy for de kommende årene har følgende fokusområder:
               </p>
-              <ul className="list-disc list-inside pt-2 text-sm italic">
+              <ul className="list-disc list-inside pt-2 text-sm italic font-semibold">
                 <li>
                   å tenke miljø som er en naturlig og integrert del av
                   virksomheten Vang Auto.
