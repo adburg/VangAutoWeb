@@ -54,7 +54,7 @@ const Miljo = () => {
                 generelt, samtidig som virksomhetens miljøspor må dokumenteres.
                 Vår miljøpolicy for de kommende årene har følgende fokusområder:
               </p>
-              <ul className="list-disc list-inside pt-2 text-sm text">
+              <ul className="list-disc list-inside pt-2 text-sm italic">
                 <li>
                   å tenke miljø som er en naturlig og integrert del av
                   virksomheten Vang Auto.
