@@ -1,6 +1,8 @@
 import React from "react";
 import Layout from "./Layout";
 import Link from "next/link";
+import Image from "next/image";
+import miljoPic from "../../public/images/miljo/miljofyrtaarn.webp";
 
 const Footer = () => {
   return (
@@ -26,6 +28,14 @@ const Footer = () => {
           className="underline underline-offset-2"
         >
           Cookie Policy
+        </Link>
+        <Link
+          href="/miljo"
+          target={"_self"}
+          className="flex flex-col items-center justify-center pt-4"
+        >
+          <Image src={miljoPic} alt="phone" priority={true} className="w-14" />
+          <p className="underline underline-offset-2">Miljøarbeid</p>
         </Link>
       </Layout>
     </footer>
