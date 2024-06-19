@@ -11,7 +11,7 @@ const ContactFormEnv = () => {
         className="flex flex-col gap-y-8 pb-14 p-6 items-center rounded-2xl border-2 dark:border-light border-dark"
         data-netlify="true"
       >
-        <input type="hidden" name="form-name-miljo" value="contact" />
+        <input type="hidden" name="form-name" value="contactenv" />
         <p className="font-bold text-lg text-dark !text-center">
           Kom med innspill på vårt klimaarbeid
         </p>
