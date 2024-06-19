@@ -34,17 +34,17 @@ const Miljo = () => {
               <p className="font-medium">
                 {" "}
                 Vang Auto jobber stadig med å bli mer miljøvennlig. For å oppnå
-                dette er vi godt underveis i en Miljøfyrtårnsertifisering. Ved å
-                sertifiseres sørger vi for at vi følger krav og anbefalinger som
-                er satt i forbindelse med FNs bærekraftmål. Bilverksteder
-                benytter seg av mye emballasje, farlig avfall, kjemikalier,
-                transport og strøm. Vi ønsker å gjøre dette så effektivt og
-                bærekraftig som mulig.
+                dette arbeider vi for tiden med en Miljøfyrtårnsertifisering.
+                Ved å sertifiseres sørger vi for at bedriften følger krav og
+                anbefalinger som er satt i forbindelse med FNs bærekraftmål.
+                Bilverksteder benytter seg av mye emballasje, farlig avfall,
+                kjemikalier, transport og strøm. Vi ønsker å gjøre dette så
+                effektivt og bærekraftig som mulig.
               </p>
               <h3 className="font-bold pt-3">Miljøfyrtårn</h3>
               <p className="font-medium">
                 {" "}
-                For å oppnå serifiseringen må bedriften ha et økt fokus på miljø
+                For å oppnå serifiseringen må Vang Auto ha et økt fokus på miljø
                 generelt, samtidig som virksomhetens miljøspor må dokumenteres.
                 Vår miljøpolicy for de kommende årene har følgende fokusområder:
               </p>
@@ -71,11 +71,11 @@ const Miljo = () => {
               </ul>
               <h3 className="font-bold pt-3">Fremgang og resultater</h3>
               <p className="font-medium">
-                For å se mer konkrete mål og vår fremgang mot de ulike målene,
-                trykk på lenken nedenfor:
+                For en mer konkret oversikt over nåverende situasjon og
+                fremtidige mål, trykk på lenken nedenfor:
               </p>
               <a
-                href="https://rapportering.miljofyrtarn.no/EnvironmentalReport/Statistics/163164"
+                href="https://rapportering.miljofyrtarn.no/stats/163164"
                 className="font-medium text-blue-700"
               >
                 Innrapportering for 2023
