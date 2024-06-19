@@ -71,7 +71,7 @@ const Miljo = () => {
               </ul>
               <h3 className="font-bold pt-3">Fremgang og resultater</h3>
               <p className="font-medium">
-                For en mer konkret oversikt over nåverende situasjon og
+                For en mer konkret oversikt over nåværende situasjon og
                 fremtidige mål, trykk på lenken nedenfor:
               </p>
               <a
