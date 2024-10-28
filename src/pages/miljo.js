@@ -33,20 +33,21 @@ const Miljo = () => {
               </h2>
               <p className="font-medium">
                 {" "}
-                Vang Auto jobber stadig med å bli mer miljøvennlig. For å oppnå
-                dette arbeider vi for tiden med en Miljøfyrtårnsertifisering.
-                Ved å sertifiseres sørger vi for at bedriften følger krav og
-                anbefalinger som er satt i forbindelse med FNs bærekraftmål.
-                Bilverksteder benytter seg av mye emballasje, farlig avfall,
-                kjemikalier, transport og strøm. Vi ønsker å gjøre dette så
-                effektivt og bærekraftig som mulig.
+                Vang Auto jobber stadig med å bli mer miljøvennlig. I august
+                2024 ble vi miljøfyrtåernsertifisert. Ved å sertifiseres sørger
+                vi for at bedriften følger krav og anbefalinger som er satt i
+                forbindelse med FNs bærekraftmål. Bilverksteder benytter seg av
+                mye emballasje, farlig avfall, kjemikalier, transport og strøm.
+                Vi ønsker å gjøre dette så effektivt og bærekraftig som mulig.
               </p>
               <h3 className="font-bold pt-3">Miljøfyrtårn</h3>
               <p className="font-medium">
                 {" "}
-                For å oppnå serifiseringen må Vang Auto ha et økt fokus på miljø
-                generelt, samtidig som virksomhetens miljøspor må dokumenteres.
-                Vår miljøpolicy for de kommende årene har følgende fokusområder:
+                For å tilfredsstille kravene som miljøfyrtårn har Vang Auto et
+                økt fokus på miljø generelt, samtidig som virksomhetens
+                miljøpåvirkning dokumenteres og benyttes for å finne områder med
+                forbedringspotensial. Vår miljøpolicy for de kommende årene har
+                følgende fokusområder:
               </p>
               <ul className="list-disc list-inside pt-2 text-sm italic font-semibold">
                 <li>

@@ -12,6 +12,7 @@ import article5 from "../../public/images/articles/dekk.jpg";
 import article6 from "../../public/images/articles/sekstito.jpg";
 import article7 from "../../public/images/articles/femtiaar.jpg";
 import article8 from "../../public/images/articles/dekkhotell.jpg";
+import article9 from "../../public/images/articles/miljofyrtarn.jpg";
 import { motion, useMotionValue } from "framer-motion";
 
 const FramerImage = motion(Image);
@@ -147,6 +148,12 @@ const Artikler = () => {
             Flere artikler
           </h2>
           <ul>
+            <Article
+              title="Vang Auto har blitt Miljøfyrtårn!"
+              img={article9}
+              date="28. Oktober 2024"
+              link="/blog/miljosert"
+            />
             <Article
               title="Våren nærmer seg - dekkskift og dekkhotell"
               img={article4}

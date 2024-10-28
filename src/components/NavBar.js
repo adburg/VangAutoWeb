@@ -101,7 +101,7 @@ const NavBar = () => {
           <CustomLink href="/" title="Hjem" className="mr-4" />
           <CustomLink href="/tjenester" title="Tjenester" className="mx-4" />
           <CustomLink href="/artikler" title="Artikler" className="mx-4" />
-          <CustomLink href="/omoss" title="Om oss" className="mx-4" />
+          <CustomLink href="/omoss" title="Om Oss" className="mx-4" />
 
           <CustomLink href="/kontaktoss" title="Kontakt Oss" className="ml-4" />
         </nav>
