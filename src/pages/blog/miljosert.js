@@ -20,7 +20,7 @@ const miljosert = () => {
         />
         <meta
           property="og:image"
-          content="https://vangauto.no/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdekkhotell.60283d4f.jpg&w=3840&q=75"
+          content="https://vangauto.no/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmiljofyrtarn.884cc247.jpg&w=3840&q=75"
         />
       </Head>
 
