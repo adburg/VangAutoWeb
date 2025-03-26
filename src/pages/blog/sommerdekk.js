@@ -18,11 +18,9 @@ const sommerdekk = () => {
           content="Vang Auto Blogg. Les våre artikler for nyttig informasjon om bilen din, og bestill en time direkte i nettsiden eller ring oss."
         />
         <meta
-          property="og:image"
+          property="og:image" 
           content="https://vangauto.no/images/articles/sommerdekk.jpg"        
         />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
       </Head>
       <main className="flex w-full flex-col mb-16 items-center justify-center">
         <Layout className="pt-12 mt-8 flex items-center justify-center !p-4 !md:p-12 !lg:p-32">
@@ -132,5 +130,11 @@ const sommerdekk = () => {
     </>
   );
 };
+
+export async function getStaticProps() {
+  return {
+    props: {}, // Add props here later if needed
+  };
+}
 
 export default sommerdekk;

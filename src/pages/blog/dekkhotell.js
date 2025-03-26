@@ -19,8 +19,10 @@ const dekkhotell = () => {
         />
         <meta
           property="og:image"
-          content="https://vangauto.no/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdekkhotell.60283d4f.jpg&w=3840&q=75"
+          content="https://vangauto.no/images/articles/dekkhotell.jpg"        
         />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
       </Head>
 
       <main className="flex w-full flex-col mb-16 items-center justify-center dark:text-light">
