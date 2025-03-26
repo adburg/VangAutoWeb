@@ -138,4 +138,10 @@ const dekkhotell = () => {
   );
 };
 
+export async function getStaticProps() {
+  return {
+    props: {}, // Add props here later if needed
+  };
+}
+
 export default dekkhotell;

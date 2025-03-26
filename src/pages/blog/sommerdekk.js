@@ -18,8 +18,8 @@ const sommerdekk = () => {
           content="Vang Auto Blogg. Les våre artikler for nyttig informasjon om bilen din, og bestill en time direkte i nettsiden eller ring oss."
         />
         <meta
-          property="og:image" 
-          content="https://vangauto.no/images/articles/sommerdekk.jpg"        
+          property="og:image"
+          content="https://vangauto.no/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsommerdekk.f3fc51ee.jpg&w=3840&q=75"
         />
       </Head>
       <main className="flex w-full flex-col mb-16 items-center justify-center">
@@ -43,19 +43,18 @@ const sommerdekk = () => {
 
               <div className="w-full flex flex-col items-start justify-between mt-6">
                 <p className="my-2 font-bold text-dark xs:text-sm dark:text-light">
-                  Temperaturen stiger på Østlandet, og vi 
-                  begynner å bevege oss inn i vårtider. Dette
-                  betyr at det er på tide med dekkskift. Vi anbefaler å
-                  planlegge i god tid, slik at du både følger loven, og gjør det
-                  som er best for bilen din.
+                  Temperaturen stiger på Østlandet, og vi begynner å bevege oss
+                  inn i vårtider. Dette betyr at det er på tide med dekkskift.
+                  Vi anbefaler å planlegge i god tid, slik at du både følger
+                  loven, og gjør det som er best for bilen din.
                 </p>
                 <p className="my-2 font-medium text-dark xs:text-sm dark:text-light">
                   -Piggdekkene skal være av senest første søndag etter påske,
-                  som i år er 27 april så sant forholdene ikke tilsier noe annet,
-                  sier daglig leder Per Asbjørn Berget hos Vang Auto AS. Han
-                  sier videre at hvis du kjører vinterdekk uten pigger kan du
-                  skifte mer etter behov, men anbefaler ikke å bruke vinterdekk
-                  lengre enn nødvendig.
+                  som i år er 27 april så sant forholdene ikke tilsier noe
+                  annet, sier daglig leder Per Asbjørn Berget hos Vang Auto AS.
+                  Han sier videre at hvis du kjører vinterdekk uten pigger kan
+                  du skifte mer etter behov, men anbefaler ikke å bruke
+                  vinterdekk lengre enn nødvendig.
                 </p>
                 <p className="mt-4 font-bold text-xl text-dark xs:text-lg dark:text-light">
                   Vang Auto er Dekkpartner
