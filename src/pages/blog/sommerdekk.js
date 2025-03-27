@@ -131,10 +131,4 @@ const sommerdekk = () => {
   );
 };
 
-export async function getStaticProps() {
-  return {
-    props: {}, // Add props here later if needed
-  };
-}
-
 export default sommerdekk;

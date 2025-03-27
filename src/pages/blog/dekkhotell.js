@@ -19,12 +19,9 @@ const dekkhotell = () => {
         />
         <meta
           property="og:image"
-          content="https://vangauto.no/images/articles/dekkhotell.jpg"        
+          content="https://vangauto.no/images/articles/dekkhotell.jpg"
         />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
       </Head>
-
       <main className="flex w-full flex-col mb-16 items-center justify-center dark:text-light">
         <Layout className="pt-12 mt-8 flex items-center justify-center !p-4 !md:p-12 !lg:p-32 ">
           <div className="flex w-2/3 md:w-full flex-col mb-16 items-center ">
@@ -137,11 +134,5 @@ const dekkhotell = () => {
     </>
   );
 };
-
-export async function getStaticProps() {
-  return {
-    props: {}, // Add props here later if needed
-  };
-}
 
 export default dekkhotell;

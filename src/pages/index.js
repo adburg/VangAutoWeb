@@ -18,6 +18,10 @@ export default function Home() {
                 Løten og Elverum. Reparasjon av biler, bobiler og
                 lette lastebiler."
         />
+        <meta
+          property="og:image"
+          content="https://vangauto.no/images/articles/mechanic-animated.png"
+        />
       </Head>
 
       <main className="flex items-center text-dark w-full min-h-screen dark:text-light">

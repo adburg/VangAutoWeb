@@ -19,7 +19,7 @@ const femtiaar = () => {
         />
         <meta
           property="og:image"
-          content="https://vangauto.no/images/articles/sommerdekk.jpg"
+          content="https://vangauto.no/images/articles/femtiaar.jpg"
         />
       </Head>
       <main className="flex w-full flex-col mb-16 items-center justify-center">
