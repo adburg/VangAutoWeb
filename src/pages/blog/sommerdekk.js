@@ -19,7 +19,8 @@ const sommerdekk = () => {
         />
         <meta
           property="og:image"
-          content="https://vangauto.no/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsommerdekk.f3fc51ee.jpg&w=3840&q=75"
+          name="og:image"
+          content="https://vangauto.no/images/articles/sommerdekk.jpg"
         />
       </Head>
       <main className="flex w-full flex-col mb-16 items-center justify-center">
