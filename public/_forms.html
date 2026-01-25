@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="no">
+  <body>
+    <!-- Static declaration so Netlify can detect the form during build -->
+    <form name="contact" method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="contact" />
+
+      <!-- Include the same field names you submit from React -->
+      <select name="type">
+        <option value="EU-Kontroll">EU-Kontroll</option>
+      </select>
+
+      <input type="text" name="name" />
+      <input type="text" name="phone" />
+      <input type="email" name="email" />
+      <input type="text" name="regNr" />
+      <textarea name="message"></textarea>
+    </form>
+  </body>
+</html>
