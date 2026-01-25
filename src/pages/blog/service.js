@@ -17,6 +17,10 @@ const service = () => {
           name="description"
           content="Vang Auto Blogg. Les våre artikler for nyttig informasjon om bilen din, og bestill en time direkte i nettsiden eller ring oss."
         />
+        <meta
+          property="og:image"
+          content="https://vangauto.no/images/articles/dekk.jpg"
+        />
       </Head>
       <main className="flex w-full flex-col mb-16 items-center justify-center">
         <Layout className="pt-12 mt-8 flex items-center justify-center !p-4 !md:p-12 !lg:p-32">

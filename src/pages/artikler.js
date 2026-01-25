@@ -149,16 +149,16 @@ const Artikler = () => {
           </h2>
           <ul>
             <Article
+              title="Våren er her - dekkskift og dekkhotell"
+              img={article4}
+              date="26. Mars 2025"
+              link="/blog/sommerdekk"
+            />
+            <Article
               title="Vang Auto har blitt Miljøfyrtårn!"
               img={article9}
               date="28. Oktober 2024"
               link="/blog/miljosert"
-            />
-            <Article
-              title="Våren nærmer seg - dekkskift og dekkhotell"
-              img={article4}
-              date="02. April 2024"
-              link="/blog/sommerdekk"
             />
             <Article
               title="Er ditt AC-anlegg klart for sommeren?"

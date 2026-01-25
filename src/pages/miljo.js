@@ -72,14 +72,20 @@ const Miljo = () => {
               </ul>
               <h3 className="font-bold pt-3">Fremgang og resultater</h3>
               <p className="font-medium">
-                For en mer konkret oversikt over nåværende situasjon og
-                fremtidige mål, trykk på lenken nedenfor:
+                For en mer konkret oversikt over vår progresjon og fremtidige
+                mål, se lenkene nedenfor:
               </p>
               <a
                 href="https://rapportering.miljofyrtarn.no/stats/163164"
                 className="font-medium text-blue-700"
               >
                 Innrapportering for 2023
+              </a>
+              <a
+                href="https://rapportering.miljofyrtarn.no/stats/172251"
+                className="font-medium text-blue-700"
+              >
+                Innrapportering for 2024
               </a>
             </div>
             {/** RIGHT COLUMN */}

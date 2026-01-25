@@ -19,14 +19,15 @@ const sommerdekk = () => {
         />
         <meta
           property="og:image"
-          content="https://vangauto.no/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsommerdekk.f3fc51ee.jpg&w=3840&q=75"
+          name="og:image"
+          content="https://vangauto.no/images/articles/sommerdekk.jpg"
         />
       </Head>
       <main className="flex w-full flex-col mb-16 items-center justify-center">
         <Layout className="pt-12 mt-8 flex items-center justify-center !p-4 !md:p-12 !lg:p-32">
           <div className="flex w-2/3 md:w-full flex-col mb-16 items-center">
             <AnimatedText
-              text="Våren og sommerdekkene er rett rundt hjørnet"
+              text="Våren har kommet - trenger du dekkskifte?"
               className="mb-6 !text-3xl !normal-case"
             />
             <div className="items-center border border-solid rounded-br-3xl rounded-3xl border-dark bg-light p-12 md:p-4 dark:border-light dark:bg-dark">
@@ -43,19 +44,18 @@ const sommerdekk = () => {
 
               <div className="w-full flex flex-col items-start justify-between mt-6">
                 <p className="my-2 font-bold text-dark xs:text-sm dark:text-light">
-                  Etter en mild påske med høye temperaturer på østlandet
-                  begynner vi å nærme oss våren og etter hvert sommeren. Dette
-                  betyr at det er på tide med dekkskift. Vi anbefaler å
-                  planlegge i god tid, slik at du både følger loven, og gjør det
-                  som er best for bilen din.
+                  Temperaturen stiger på Østlandet, og vi begynner å bevege oss
+                  inn i vårtider. Dette betyr at det er på tide med dekkskift.
+                  Vi anbefaler å planlegge i god tid, slik at du både følger
+                  loven, og gjør det som er best for bilen din.
                 </p>
                 <p className="my-2 font-medium text-dark xs:text-sm dark:text-light">
                   -Piggdekkene skal være av senest første søndag etter påske,
-                  som i år er 7 april så sant forholdene ikke tilsier noe annet,
-                  sier daglig leder Per Asbjørn Berget hos Vang Auto AS. Han
-                  sier videre at hvis du kjører vinterdekk uten pigger kan du
-                  skifte mer etter behov, men anbefaler ikke å bruke vinterdekk
-                  lengre enn nødvendig.
+                  som i år er 27 april så sant forholdene ikke tilsier noe
+                  annet, sier daglig leder Per Asbjørn Berget hos Vang Auto AS.
+                  Han sier videre at hvis du kjører vinterdekk uten pigger kan
+                  du skifte mer etter behov, men anbefaler ikke å bruke
+                  vinterdekk lengre enn nødvendig.
                 </p>
                 <p className="mt-4 font-bold text-xl text-dark xs:text-lg dark:text-light">
                   Vang Auto er Dekkpartner
