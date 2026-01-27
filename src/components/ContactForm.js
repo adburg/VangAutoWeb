@@ -48,6 +48,7 @@ const ContactForm = () => {
         className="flex flex-col gap-y-8 pb-14 p-6 items-center rounded-2xl border-2 dark:border-light border-dark"
       >
         <input type="hidden" name="form-name" value="contact" />
+        <input type="hidden" name="bot-field" />
         <p className="font-bold text-lg text-dark !text-center">
           Kontaktskjema
         </p>
