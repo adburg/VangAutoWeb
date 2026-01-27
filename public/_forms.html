@@ -1,19 +1,47 @@
 <!doctype html>
 <html lang="no">
   <body>
-    <!-- Static declaration so Netlify can detect the form during build -->
-    <form name="contact" method="POST" data-netlify="true">
+    <form
+      name="contact"
+      method="POST"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
+    >
       <input type="hidden" name="form-name" value="contact" />
+      <p hidden>
+        <label>Don’t fill this out: <input name="bot-field" /></label>
+      </p>
 
-      <!-- Include the same field names you submit from React -->
       <select name="type">
         <option value="EU-Kontroll">EU-Kontroll</option>
+        <option value="Service/Reparasjon">Service/Reparasjon</option>
+        <option value="Firehjulskontroll">Firehjulskontroll</option>
+        <option value="AC-Service">AC-service</option>
+        <option value="Dekkskift/Dekkhotell">Dekkskift/Dekkhotell</option>
+        <option value="Varebil/Bobil">Varebil/Bobil</option>
+        <option value="Annet">Annet</option>
       </select>
 
       <input type="text" name="name" />
       <input type="text" name="phone" />
       <input type="email" name="email" />
       <input type="text" name="regNr" />
+      <textarea name="message"></textarea>
+    </form>
+
+    <form
+      name="contactenv"
+      method="POST"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
+    >
+      <input type="hidden" name="form-name" value="contactenv" />
+      <p hidden>
+        <label>Don’t fill this out: <input name="bot-field" /></label>
+      </p>
+
+      <input type="text" name="name" />
+      <input type="email" name="email" />
       <textarea name="message"></textarea>
     </form>
   </body>

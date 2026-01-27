@@ -1,15 +1,49 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+const encode = (data) => new URLSearchParams(data).toString();
+
 const ContactFormEnv = () => {
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+
+    const data = {};
+    formData.forEach((value, key) => {
+      data[key] = String(value);
+    });
+
+    try {
+      const res = await fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: encode({
+          "form-name": form.getAttribute("name"),
+          ...data,
+        }),
+      });
+
+      if (!res.ok) {
+        console.error("Netlify form submit failed:", res.status);
+        return;
+      }
+
+      window.location.assign("/bestiltenv");
+    } catch (err) {
+      console.error("Netlify form submit error:", err);
+    }
+  };
   return (
     <>
       <form
-        action="/bestiltenv"
         name="contactenv"
-        method="post"
-        className="flex flex-col gap-y-8 pb-14 p-6 items-center rounded-2xl border-2 dark:border-light border-dark"
+        method="POST"
         data-netlify="true"
+        data-netlify-honeypot="bot-field"
+        onSubmit={handleSubmit}
+        className="flex flex-col gap-y-8 pb-14 p-6 items-center rounded-2xl border-2 dark:border-light border-dark"
       >
         <input type="hidden" name="form-name" value="contactenv" />
         <p className="font-bold text-lg text-dark !text-center">
