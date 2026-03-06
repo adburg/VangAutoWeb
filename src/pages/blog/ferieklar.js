@@ -12,15 +12,21 @@ const ferieklar = () => {
   return (
     <>
       <Head>
-        <title>Vang Auto | Blogg - Ferieklar bil </title>
+        <title>Ferieklar Bil – Bilservice & Sjekk nær Hamar | Vang Auto</title>
         <meta
           name="description"
-          content="Vang Auto Blogg. Les våre artikler for nyttig informasjon om bilen din, og bestill en time direkte i nettsiden eller ring oss."
+          content="Gjør bilen klar til ferien med service hos Vang Auto bilverksted nær Hamar, Løten og Elverum. Vi sjekker dekk, bremser, olje og AC. Bestill time tidlig – verkstedet fyller seg fort!"
         />
         <meta
-          property="og:image"
-          content="https://vangauto.no/images/articles/feriebil.jpg"
+          name="keywords"
+          content="ferieklar bil Hamar, service bil Hamar, bilsjekk Hamar, dekkskifte Hamar, EU-kontroll Hamar, verksted Løten"
         />
+        <meta property="og:title" content="Ferieklar Bil – Bilservice & Sjekk nær Hamar | Vang Auto" />
+        <meta property="og:description" content="Gjør bilen klar til ferien med service hos Vang Auto bilverksted nær Hamar, Løten og Elverum. Dekk, bremser, olje og AC." />
+        <meta property="og:image" content="https://vangauto.no/images/articles/feriebil.jpg" />
+        <meta property="og:type" content="article" />
+        <meta name="geo.region" content="NO-INN" />
+        <meta name="geo.placename" content="Hamar" />
       </Head>
       <main className="flex w-full flex-col mb-16 items-center justify-center">
         <Layout className="pt-12 mt-8 flex items-center justify-center !p-4 !md:p-12 !lg:p-32">

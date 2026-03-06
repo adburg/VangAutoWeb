@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import React from "react";
-import image from "../../../public/images/articles/sommerdekk.jpg";
+import image from "../../../public/images/articles/dekkhotell.jpg";
 import { motion } from "framer-motion";
 import Layout from "../../components/Layout";
 import AnimatedText from "../../components/AnimatedText";
@@ -12,16 +12,21 @@ const sommerdekk = () => {
   return (
     <>
       <Head>
-        <title>Vang Auto | Blogg - Sommerdekk</title>
+        <title>Dekkskifte til Sommerdekk nær Hamar | Vang Auto</title>
         <meta
           name="description"
-          content="Vang Auto Blogg. Les våre artikler for nyttig informasjon om bilen din, og bestill en time direkte i nettsiden eller ring oss."
+          content="Det er tid for dekkskifte til sommerdekk! Vang Auto tilbyr dekkskift og dekkhotell nær Hamar, Løten og Elverum. Vi er offisiell Dekkpartner – bestill time i dag!"
         />
         <meta
-          property="og:image"
-          name="og:image"
-          content="https://vangauto.no/images/articles/sommerdekk.jpg"
+          name="keywords"
+          content="dekkskifte Hamar, sommerdekk Hamar, dekkhotell Hamar, dekkskifte Løten, dekkskifte Elverum, Dekkpartner Hamar, bilverksted Hamar"
         />
+        <meta property="og:title" content="Dekkskifte til Sommerdekk nær Hamar | Vang Auto" />
+        <meta property="og:description" content="Tid for dekkskifte til sommerdekk! Vang Auto tilbyr dekkskift og dekkhotell nær Hamar, Løten og Elverum. Offisiell Dekkpartner." />
+        <meta property="og:image" content="https://vangauto.no/images/articles/dekkhotell.jpg" />
+        <meta property="og:type" content="article" />
+        <meta name="geo.region" content="NO-INN" />
+        <meta name="geo.placename" content="Hamar" />
       </Head>
       <main className="flex w-full flex-col mb-16 items-center justify-center">
         <Layout className="pt-12 mt-8 flex items-center justify-center !p-4 !md:p-12 !lg:p-32">
@@ -51,7 +56,7 @@ const sommerdekk = () => {
                 </p>
                 <p className="my-2 font-medium text-dark xs:text-sm dark:text-light">
                   -Piggdekkene skal være av senest første søndag etter påske,
-                  som i år er 27 april så sant forholdene ikke tilsier noe
+                  som i år er 12 april så sant forholdene ikke tilsier noe
                   annet, sier daglig leder Per Asbjørn Berget hos Vang Auto AS.
                   Han sier videre at hvis du kjører vinterdekk uten pigger kan
                   du skifte mer etter behov, men anbefaler ikke å bruke

@@ -12,15 +12,21 @@ const femtiaar = () => {
   return (
     <>
       <Head>
-        <title>Vang Auto | Blogg - Femtiårsjubileum</title>
+        <title>50 Års Jubileum – Vang Auto Bilverksted | Hamar</title>
         <meta
           name="description"
-          content="Vang Auto Blogg. Les våre artikler for nyttig informasjon om bilen din, og bestill en time direkte i nettsiden eller ring oss."
+          content="Les om Geir Bjørnstad som feiret 50 år som mekaniker på Vang Auto bilverksted nær Hamar. Et verksted med lang tradisjon og over 60 års solid erfaring i bransjen."
         />
         <meta
-          property="og:image"
-          content="https://vangauto.no/images/articles/femtiaar.jpg"
+          name="keywords"
+          content="Vang Auto historie, bilverksted Hamar tradisjon, mekaniker jubileum, verksted Hamar erfaring"
         />
+        <meta property="og:title" content="50 Års Jubileum – Vang Auto Bilverksted | Hamar" />
+        <meta property="og:description" content="50-års jubileum for mekaniker på Vang Auto bilverksted nær Hamar. Et verksted med lang tradisjon og solid erfaring." />
+        <meta property="og:image" content="https://vangauto.no/images/articles/femtiaar.jpg" />
+        <meta property="og:type" content="article" />
+        <meta name="geo.region" content="NO-INN" />
+        <meta name="geo.placename" content="Hamar" />
       </Head>
       <main className="flex w-full flex-col mb-16 items-center justify-center">
         <Layout className="pt-12 mt-8 flex items-center justify-center !p-4 !md:p-12 !lg:p-32">

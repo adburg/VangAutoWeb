@@ -110,12 +110,20 @@ const Artikler = () => {
   return (
     <>
       <Head>
-        <title>Vang Auto | Artikler</title>
+        <title>Artikler om Bil & Verksted | Vang Auto Hamar</title>
         <meta
           name="description"
-          content="Vang Auto bilverksted mellom Hamar og Eleverum. 
-        Les våre artikler for tips om hvordan du bør behandle din bil. Bestill time nå eller ring oss."
+          content="Les nyttige artikler om bilstell, dekkskifte, EU-kontroll og service bil fra Vang Auto bilverksted nær Hamar, Løten og Elverum. Tips og råd fra ekspertene."
         />
+        <meta
+          name="keywords"
+          content="bilartikler Hamar, dekkskifte tips, EU-kontroll informasjon, service bil råd, verksted Hamar, Vang Auto Hamar"
+        />
+        <meta property="og:title" content="Artikler om Bil & Verksted | Vang Auto Hamar" />
+        <meta property="og:description" content="Les nyttige artikler om dekkskifte, EU-kontroll og service bil fra Vang Auto bilverksted nær Hamar, Løten og Elverum." />
+        <meta property="og:type" content="website" />
+        <meta name="geo.region" content="NO-INN" />
+        <meta name="geo.placename" content="Hamar" />
       </Head>
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
         <Layout className="pt-10">
@@ -150,7 +158,7 @@ const Artikler = () => {
           <ul>
             <Article
               title="Våren er her - dekkskift og dekkhotell"
-              img={article4}
+              img={article8}
               date="26. Mars 2025"
               link="/blog/sommerdekk"
             />

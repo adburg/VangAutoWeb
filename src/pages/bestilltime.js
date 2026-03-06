@@ -8,12 +8,20 @@ const Bestilltime = () => {
   return (
     <>
       <Head>
-        <title>Vang Auto | Bestill Time</title>
+        <title>Bestill Time – Bilverksted Hamar | Vang Auto</title>
         <meta
           name="description"
-          content="Vang Auto bilverksted mellom Hamar og Eleverum. 
-        Trenger bilen din en tur på verkstedet? Vi har høy kvalitet og proffesjonelle mekanikere. Bestill time nå."
+          content="Book time hos Vang Auto bilverksted enkelt og raskt. Vi er lett tilgjengelig fra Hamar, Løten og Elverum. EU-kontroll, service bil, dekkskifte og mer – ring eller bestill online!"
         />
+        <meta
+          name="keywords"
+          content="bestill time bilverksted Hamar, verksted time Hamar, EU-kontroll bestilling Hamar, service bil Hamar, dekkskifte Løten"
+        />
+        <meta property="og:title" content="Bestill Time – Bilverksted Hamar | Vang Auto" />
+        <meta property="og:description" content="Book time hos Vang Auto bilverksted. Lett tilgjengelig fra Hamar, Løten og Elverum. EU-kontroll, service og dekkskifte." />
+        <meta property="og:type" content="website" />
+        <meta name="geo.region" content="NO-INN" />
+        <meta name="geo.placename" content="Hamar" />
       </Head>
       <main className="flex items-center w-full justify-center text-dark min-h-screen dark:text-light">
         <Layout className="pt-12">
