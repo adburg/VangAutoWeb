@@ -12,7 +12,7 @@ const sommerdekk = () => {
   return (
     <>
       <Head>
-        <title>Dekkskifte til Sommerdekk nær Hamar | Vang Auto</title>
+        <title>Dekkskifte til sommerdekk ved Hamar | Vang Auto</title>
         <meta
           name="description"
           content="Det er tid for dekkskifte til sommerdekk! Vang Auto tilbyr dekkskift og dekkhotell nær Hamar, Løten og Elverum. Vi er offisiell Dekkpartner – bestill time i dag!"
