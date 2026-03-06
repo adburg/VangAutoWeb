@@ -133,35 +133,30 @@ const Artikler = () => {
           />
           <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:gap-y-16 md:grid-cols-1">
             <FeaturedArticle
+              title="Våren er her – dekkskifte og dekkhotell"
+              summary="Temperaturen stiger på Østlandet, og vi begynner å bevege oss inn i vårtider. Dette betyr at det er på 
+              tide med dekkskift. Vi anbefaler å planlegge i god tid, slik at du både følger loven, og gjør det som er best 
+              for bilen din. Vang Auto er offisiell Dekkpartner, noe som innebærer at vi har den nødvendige ekspertisen som 
+              kreves for å ta vare på dine dekk."
+              date="6. Mars 2026"
+              link="/blog/sommerdekk"
+              img={article8}
+            />
+            <FeaturedArticle
               title="Ferieklar bil?"
-              summary="Når sommeren kommer, er det viktig å forberede bilen din for varmere temperaturer og lengre kjøreturer. 
-              Enten du skal på en lang ferie eller bare bruke bilen til daglig, kan en grundig sjekk og service på bilen sørge 
-              for at den fungerer optimalt og gir en trygg og behagelig kjøreopplevelse. Hos Vang Auto tilbyr vi en rekke tjenester 
+              summary="Når sommeren kommer, er det viktig å forberede bilen din for varmere temperaturer og lengre kjøreturer.
+              Enten du skal på en lang ferie eller bare bruke bilen til daglig, kan en grundig sjekk og service på bilen sørge
+              for at den fungerer optimalt og gir en trygg og behagelig kjøreopplevelse. Hos Vang Auto tilbyr vi en rekke tjenester
               for å gjøre bilen din klar for sommeren."
               date="6. Juni 2023"
               link="/blog/ferieklar"
               img={article1}
-            />
-            <FeaturedArticle
-              title="Vi reparerer bobilen og varebilen din"
-              summary="Vi har både utstyr, plass og kompetanse til å reparere og vedlikeholde bobiler og varebiler på inntil 7,5 tonn, 
-              sier daglig leder Per Asbjørn Berget hos Vang Auto AS. Uansett hvor du skal med bobilen din, er det viktig at den blir tatt godt vare på. 
-              Vi kan ta service, vedlikehold og reparasjoner på alle merker og modeller. Det samme gjelder selvsagt for varebiler, sier Berget."
-              date="4. Oktober 2022"
-              link="/blog/varebil"
-              img={article2}
             />
           </ul>
           <h2 className="font-bold text-4xl w-full text-center my-16 mt-32">
             Flere artikler
           </h2>
           <ul>
-            <Article
-              title="Våren er her - dekkskift og dekkhotell"
-              img={article8}
-              date="26. Mars 2025"
-              link="/blog/sommerdekk"
-            />
             <Article
               title="Vang Auto har blitt Miljøfyrtårn!"
               img={article9}
@@ -173,6 +168,12 @@ const Artikler = () => {
               img={article3}
               date="9. Mai 2023"
               link="/blog/klima"
+            />
+            <Article
+              title="Vi reparerer bobilen og varebilen din"
+              img={article2}
+              date="4. Oktober 2022"
+              link="/blog/varebil"
             />
             <Article
               title="Vi tar service på bilen din – også elbil
