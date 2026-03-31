@@ -87,6 +87,12 @@ const Miljo = () => {
               >
                 Innrapportering for 2024
               </a>
+              <a
+                href="https://rapportering.miljofyrtarn.no/stats/192453"
+                className="font-medium text-blue-700"
+              >
+                Innrapportering for 2025
+              </a>
             </div>
             {/** RIGHT COLUMN */}
             <div
