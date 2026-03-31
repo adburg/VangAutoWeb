@@ -12,15 +12,21 @@ const varebil = () => {
   return (
     <>
       <Head>
-        <title>Vang Auto | Blogg - Vare- og Bobil</title>
+        <title>Verksted for Varebil & Bobil nær Hamar | Vang Auto</title>
         <meta
           name="description"
-          content="Vang Auto Blogg. Les våre artikler for nyttig informasjon om bilen din, og bestill en time direkte i nettsiden eller ring oss."
+          content="Vang Auto reparerer og vedlikeholder varebiler og bobiler opptil 7,5 tonn. Autorisert Iveco-verksted nær Hamar, Løten og Elverum. EU-kontroll og service på alle merker og modeller."
         />
         <meta
-          property="og:image"
-          content="https://vangauto.no/images/articles/varebil.png"
+          name="keywords"
+          content="varebil verksted Hamar, bobil verksted Hamar, Iveco verksted Hamar, EU-kontroll varebil Hamar, service varebil Elverum, bilverksted Løten"
         />
+        <meta property="og:title" content="Verksted for Varebil & Bobil nær Hamar | Vang Auto" />
+        <meta property="og:description" content="Vang Auto reparerer varebiler og bobiler opptil 7,5 tonn. Autorisert Iveco-verksted nær Hamar, Løten og Elverum." />
+        <meta property="og:image" content="https://vangauto.no/images/articles/varebil.png" />
+        <meta property="og:type" content="article" />
+        <meta name="geo.region" content="NO-INN" />
+        <meta name="geo.placename" content="Hamar" />
       </Head>
       <main className="flex w-full flex-col mb-16 items-center justify-center">
         <Layout className="pt-12 mt-8 flex items-center justify-center !p-4 !md:p-12 !lg:p-32">

@@ -12,15 +12,21 @@ const klima = () => {
   return (
     <>
       <Head>
-        <title>Vang Auto | Blogg - Air Condition</title>
+        <title>AC-Service & Klimaanlegg på Bil nær Hamar | Vang Auto</title>
         <meta
           name="description"
-          content="Vang Auto Blogg. Les våre artikler for nyttig informasjon om bilen din, og bestill en time direkte i nettsiden eller ring oss."
+          content="Er klimaanlegget i bilen klar for sommeren? Vang Auto bilverksted nær Hamar, Løten og Elverum tilbyr AC-service, rens og skifte av pollenfilter til gode priser. Bestill time nå!"
         />
         <meta
-          property="og:image"
-          content="https://vangauto.no/images/articles/ac.jpg"
+          name="keywords"
+          content="AC service bil Hamar, klimaanlegg bil Hamar, pollenfilter Hamar, verksted Hamar, service bil Hamar, bilverksted Løten"
         />
+        <meta property="og:title" content="AC-Service & Klimaanlegg på Bil nær Hamar | Vang Auto" />
+        <meta property="og:description" content="AC-service, klimarens og pollenfilter til bilen din. Vang Auto bilverksted nær Hamar, Løten og Elverum." />
+        <meta property="og:image" content="https://vangauto.no/images/articles/ac.jpg" />
+        <meta property="og:type" content="article" />
+        <meta name="geo.region" content="NO-INN" />
+        <meta name="geo.placename" content="Hamar" />
       </Head>
       <main className="flex w-full flex-col mb-16 items-center justify-center">
         <Layout className="pt-12 mt-8 flex items-center justify-center !p-4 !md:p-12 !lg:p-32">

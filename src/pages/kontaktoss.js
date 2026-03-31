@@ -13,12 +13,20 @@ const Kontaktoss = () => {
   return (
     <>
       <Head>
-        <title>Vang Auto | Kontakt oss</title>
+        <title>Kontakt Oss | Vang Auto Bilverksted – Hamar, Løten, Elverum</title>
         <meta
           name="description"
-          content="Vang Auto bilverksted mellom Hamar og Eleverum. 
-          Ta kontakt for å få svar på dine spørsmål, eller bestill time nå."
+          content="Ta kontakt med Vang Auto bilverksted. Vi er nær Hamar, Løten og Elverum – ring oss, send e-post eller bruk kontaktskjemaet. EU-kontroll, service bil, dekkskifte og mer."
         />
+        <meta
+          name="keywords"
+          content="kontakt bilverksted Hamar, Vang Auto tlf, verksted Hamar kontakt, bilverksted Løten, bilverksted Elverum"
+        />
+        <meta property="og:title" content="Kontakt Oss | Vang Auto Bilverksted – Hamar, Løten, Elverum" />
+        <meta property="og:description" content="Ta kontakt med Vang Auto bilverksted nær Hamar, Løten og Elverum. EU-kontroll, service og dekkskifte." />
+        <meta property="og:type" content="website" />
+        <meta name="geo.region" content="NO-INN" />
+        <meta name="geo.placename" content="Hamar" />
       </Head>
       <main className="w-full flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-10">

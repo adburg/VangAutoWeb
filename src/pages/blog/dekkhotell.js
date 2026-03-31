@@ -12,15 +12,21 @@ const dekkhotell = () => {
   return (
     <>
       <Head>
-        <title>Vang Auto | Blogg - Dekkhotell</title>
+        <title>Dekkhotell & Dekkskifte nær Hamar | Vang Auto</title>
         <meta
           name="description"
-          content="Vang Auto Blogg. Les våre artikler for nyttig informasjon om bilen din, og bestill en time direkte i nettsiden eller ring oss."
+          content="Spar plass og tid med dekkhotell hos Vang Auto bilverksted nær Hamar og Løten. Vi skifter, vasker og oppbevarer dekkene dine. Offisiell Dekkpartner med gode priser på nye dekk."
         />
         <meta
-          property="og:image"
-          content="https://vangauto.no/images/articles/dekkhotell.jpg"
+          name="keywords"
+          content="dekkhotell Hamar, dekkskifte Hamar, bildekk oppbevaring Hamar, Dekkpartner Hamar, dekkhotell Løten, verksted Hamar"
         />
+        <meta property="og:title" content="Dekkhotell & Dekkskifte nær Hamar | Vang Auto" />
+        <meta property="og:description" content="Dekkhotell og dekkskifte hos Vang Auto nær Hamar og Løten. Offisiell Dekkpartner – vi skifter, vasker og oppbevarer dekkene dine." />
+        <meta property="og:image" content="https://vangauto.no/images/articles/dekkhotell.jpg" />
+        <meta property="og:type" content="article" />
+        <meta name="geo.region" content="NO-INN" />
+        <meta name="geo.placename" content="Hamar" />
       </Head>
       <main className="flex w-full flex-col mb-16 items-center justify-center dark:text-light">
         <Layout className="pt-12 mt-8 flex items-center justify-center !p-4 !md:p-12 !lg:p-32 ">

@@ -11,17 +11,21 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Vang Auto</title>
+        <title>Bilverksted Hamar | EU-kontroll & Dekkskifte | Vang Auto</title>
         <meta
           name="description"
-          content="Vang Auto - lett tilgjengelig fra både Hamar,
-                Løten og Elverum. Reparasjon av biler, bobiler og
-                lette lastebiler."
+          content="Vang Auto er ditt lokale bilverksted nær Hamar, Løten og Elverum. Vi tilbyr EU-kontroll, service på bil, dekkskifte og dekkhotell. Over 60 års erfaring – bestill time i dag!"
         />
         <meta
-          property="og:image"
-          content="https://vangauto.no/images/articles/mechanic-animated.png"
+          name="keywords"
+          content="bilverksted Hamar, verksted Hamar, EU-kontroll Hamar, service bil Hamar, dekkskifte Hamar, bilverksted Løten, bilverksted Elverum, Vang Auto"
         />
+        <meta property="og:title" content="Bilverksted Hamar | EU-kontroll & Dekkskifte | Vang Auto" />
+        <meta property="og:description" content="Vang Auto er ditt lokale bilverksted nær Hamar, Løten og Elverum. EU-kontroll, service, dekkskifte og dekkhotell. Over 60 års erfaring." />
+        <meta property="og:image" content="https://vangauto.no/images/articles/mechanic-animated.png" />
+        <meta property="og:type" content="website" />
+        <meta name="geo.region" content="NO-INN" />
+        <meta name="geo.placename" content="Hamar" />
       </Head>
 
       <main className="flex items-center text-dark w-full min-h-screen dark:text-light">

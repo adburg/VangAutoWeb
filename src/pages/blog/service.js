@@ -12,15 +12,21 @@ const service = () => {
   return (
     <>
       <Head>
-        <title>Vang Auto | Blogg - Service</title>
+        <title>Service på Bil – Alle Merker & Elbil nær Hamar | Vang Auto</title>
         <meta
           name="description"
-          content="Vang Auto Blogg. Les våre artikler for nyttig informasjon om bilen din, og bestill en time direkte i nettsiden eller ring oss."
+          content="Vang Auto utfører service bil og reparasjon på alle bilmerker inkl. elbil og hybrid, nær Hamar, Løten og Elverum. Elbil-sertifisert Meca-verksted – garantien beholdes etter service hos oss!"
         />
         <meta
-          property="og:image"
-          content="https://vangauto.no/images/articles/dekk.jpg"
+          name="keywords"
+          content="service bil Hamar, bilservice Hamar, elbil service Hamar, hybrid service Hamar, Meca verksted Hamar, verksted Løten, service bil Elverum"
         />
+        <meta property="og:title" content="Service på Bil – Alle Merker & Elbil nær Hamar | Vang Auto" />
+        <meta property="og:description" content="Service bil og reparasjon på alle bilmerker inkl. elbil og hybrid. Elbil-sertifisert Meca-verksted nær Hamar, Løten og Elverum." />
+        <meta property="og:image" content="https://vangauto.no/images/articles/dekk.jpg" />
+        <meta property="og:type" content="article" />
+        <meta name="geo.region" content="NO-INN" />
+        <meta name="geo.placename" content="Hamar" />
       </Head>
       <main className="flex w-full flex-col mb-16 items-center justify-center">
         <Layout className="pt-12 mt-8 flex items-center justify-center !p-4 !md:p-12 !lg:p-32">

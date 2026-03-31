@@ -117,12 +117,20 @@ const Tjenester = () => {
   return (
     <>
       <Head>
-        <title>Vang Auto | Tjenester</title>
+        <title>EU-kontroll, Service & Dekkskifte Hamar | Vang Auto Verksted</title>
         <meta
           name="description"
-          content="Trenger din bil EU-kontroll, service, dekkhotell eller liknende? 
-        Sjekk ut våre tjenester her. Vi reparerer også lette lastebiler og bobiler."
+          content="Bestill EU-kontroll, service bil, dekkskifte og dekkhotell hos Vang Auto bilverksted nær Hamar, Løten og Elverum. Alle bilmerker, inkl. elbil og hybridbil."
         />
+        <meta
+          name="keywords"
+          content="EU-kontroll Hamar, service bil Hamar, dekkskifte Hamar, verksted Hamar, bilverksted Løten, EU-kontroll Elverum, dekkhotell Hamar"
+        />
+        <meta property="og:title" content="EU-kontroll, Service & Dekkskifte Hamar | Vang Auto Verksted" />
+        <meta property="og:description" content="EU-kontroll, service bil, dekkskifte og dekkhotell hos Vang Auto. Nær Hamar, Løten og Elverum. Alle bilmerker inkl. elbil." />
+        <meta property="og:type" content="website" />
+        <meta name="geo.region" content="NO-INN" />
+        <meta name="geo.placename" content="Hamar" />
       </Head>
       <main className="w-full mb-16 flex flex-col items-cener justify-center dark:text-light">
         <Layout className="pt-10">

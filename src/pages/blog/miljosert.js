@@ -13,15 +13,21 @@ const miljosert = () => {
   return (
     <>
       <Head>
-        <title>Vang Auto | Blogg - Miljøsertifisering</title>
+        <title>Miljøsertifisert Bilverksted Hamar | Vang Auto Miljøfyrtårn</title>
         <meta
           name="description"
-          content="Vang Auto Blogg. Les våre artikler for nyttig informasjon om bilen din, og bestill en time direkte i nettsiden eller ring oss."
+          content="Vang Auto bilverksted nær Hamar er nå Miljøfyrtårn-sertifisert! Vi tilbyr grønn service bil, EU-kontroll og dekkskifte med fokus på bærekraft. Bestill time hos oss i dag."
         />
         <meta
-          property="og:image"
-          content="https://vangauto.no/images/articles/miljofyrtarn.jpg"
+          name="keywords"
+          content="miljøsertifisert bilverksted Hamar, Miljøfyrtårn verksted, grønn bilservice Hamar, EU-kontroll Hamar, dekkskifte Hamar"
         />
+        <meta property="og:title" content="Miljøsertifisert Bilverksted Hamar | Vang Auto Miljøfyrtårn" />
+        <meta property="og:description" content="Vang Auto bilverksted nær Hamar er Miljøfyrtårn-sertifisert. Grønn service, EU-kontroll og dekkskifte." />
+        <meta property="og:image" content="https://vangauto.no/images/articles/miljofyrtarn.jpg" />
+        <meta property="og:type" content="article" />
+        <meta name="geo.region" content="NO-INN" />
+        <meta name="geo.placename" content="Hamar" />
       </Head>
 
       <main className="flex w-full flex-col mb-16 items-center justify-center dark:text-light">

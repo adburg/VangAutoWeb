@@ -36,12 +36,20 @@ const Omoss = () => {
   return (
     <>
       <Head>
-        <title>Vang Auto | Om oss</title>
+        <title>Om Oss | Bilverksted med 60+ års erfaring nær Hamar | Vang Auto</title>
         <meta
           name="description"
-          content="Vang Auto bilverksted mellom Hamar og Eleverum. 
-        Over 60 års bransjeerfaring og flere enn 10 sertifiserte mekanikere. Les mer om oss her."
+          content="Vang Auto bilverksted nær Hamar har over 60 års erfaring med EU-kontroll, service bil og dekkskifte. Vi er Meca- og Iveco-verksted med 10+ sertifiserte mekanikere. Betjener Hamar, Løten og Elverum."
         />
+        <meta
+          name="keywords"
+          content="bilverksted Hamar erfaring, Meca verksted Hamar, Iveco verksted Hamar, EU-kontroll Hamar, service bil Hamar, verksted Løten"
+        />
+        <meta property="og:title" content="Om Oss | Bilverksted med 60+ års erfaring nær Hamar | Vang Auto" />
+        <meta property="og:description" content="Vang Auto bilverksted nær Hamar. Over 60 år med EU-kontroll, service og dekkskifte. Meca- og Iveco-verksted med 10+ sertifiserte mekanikere." />
+        <meta property="og:type" content="website" />
+        <meta name="geo.region" content="NO-INN" />
+        <meta name="geo.placename" content="Hamar" />
       </Head>
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-10">

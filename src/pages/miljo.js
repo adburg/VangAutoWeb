@@ -8,12 +8,20 @@ const Miljo = () => {
   return (
     <>
       <Head>
-        <title>Vang Auto | Miljø</title>
+        <title>Miljøvennlig Bilverksted Hamar | Miljøfyrtårn | Vang Auto</title>
         <meta
           name="description"
-          content="Vang Auto bilverksted mellom Hamar og Eleverum. 
-          Ta kontakt for å få svar på dine spørsmål, eller bestill time nå."
+          content="Vang Auto bilverksted nær Hamar er Miljøfyrtårn-sertifisert siden 2024. Vi tilbyr EU-kontroll, service bil og dekkskifte med fokus på bærekraft og miljøansvar."
         />
+        <meta
+          name="keywords"
+          content="miljøvennlig bilverksted Hamar, Miljøfyrtårn verksted, bærekraftig verksted Hamar, EU-kontroll Hamar, service bil Hamar"
+        />
+        <meta property="og:title" content="Miljøvennlig Bilverksted Hamar | Miljøfyrtårn | Vang Auto" />
+        <meta property="og:description" content="Vang Auto bilverksted nær Hamar er Miljøfyrtårn-sertifisert. EU-kontroll, service og dekkskifte med miljøfokus." />
+        <meta property="og:type" content="website" />
+        <meta name="geo.region" content="NO-INN" />
+        <meta name="geo.placename" content="Hamar" />
       </Head>
       <main className="w-full flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-10">
