@@ -1,3 +1,70 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*
+ * Typography for markdown-rendered article bodies (/blog/[slug]).
+ * These rules reproduce the classes the previously hard-coded article pages
+ * used, so migrated articles look exactly the same.
+ */
+@layer components {
+  .article-body > *:first-child {
+    @apply mt-0;
+  }
+
+  .article-body p {
+    @apply my-2 font-medium text-dark xs:text-sm dark:text-light;
+  }
+
+  .article-body h2,
+  .article-body h3 {
+    @apply mt-4 mb-0 font-bold text-xl text-dark xs:text-lg dark:text-light;
+  }
+
+  /* First paragraph after a heading hugs the heading, as before. */
+  .article-body h2 + p,
+  .article-body h3 + p {
+    @apply mt-0 mb-2;
+  }
+
+  .article-body strong {
+    @apply font-bold;
+  }
+
+  .article-body em {
+    @apply italic;
+  }
+
+  .article-body a {
+    @apply text-blue-600 hover:underline dark:text-blue-500;
+  }
+
+  .article-body ul,
+  .article-body ol {
+    @apply my-2 pl-6 font-medium text-dark xs:text-sm dark:text-light;
+  }
+
+  .article-body ul {
+    @apply list-disc;
+  }
+
+  .article-body ol {
+    @apply list-decimal;
+  }
+
+  .article-body li {
+    @apply my-1;
+  }
+
+  .article-body blockquote {
+    @apply my-2 pl-4 border-l-4 border-dark/30 font-medium italic text-dark xs:text-sm dark:border-light/30 dark:text-light;
+  }
+
+  .article-body img {
+    @apply my-4 w-full h-auto rounded-lg border-2 border-dark dark:border-light;
+  }
+
+  .article-body hr {
+    @apply my-6 w-full border-t border-dark/20 dark:border-light/20;
+  }
+}
