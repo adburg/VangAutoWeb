@@ -12,18 +12,10 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import sharp from "sharp";
-import { remark } from "remark";
-import remarkGfm from "remark-gfm";
-import remarkHtml from "remark-html";
+import { getImageDimensions } from "./images.js";
+import { markdownToHtml } from "./markdown.js";
 
 export const ARTICLES_DIR = path.join(process.cwd(), "src", "content", "articles");
-
-// Fallback used when an image cannot be measured, so a bad image never breaks a build.
-const FALLBACK_IMAGE_WIDTH = 1200;
-const FALLBACK_IMAGE_HEIGHT = 630;
-
-const imageDimensionCache = new Map();
 
 function articleError(fileName, message) {
   return new Error(
@@ -77,40 +69,6 @@ function deriveExcerpt(markdown) {
     .replace(/[*_`]/g, "")
     .replace(/\s+/g, " ")
     .trim();
-}
-
-/**
- * Intrinsic image dimensions, needed because next/image requires width/height
- * for string sources. Measured once per build and memoised.
- */
-async function getImageDimensions(imagePath) {
-  const fallback = { width: FALLBACK_IMAGE_WIDTH, height: FALLBACK_IMAGE_HEIGHT };
-
-  if (!imagePath || /^https?:\/\//i.test(imagePath)) return fallback;
-  if (imageDimensionCache.has(imagePath)) return imageDimensionCache.get(imagePath);
-
-  let dimensions = fallback;
-  try {
-    const filePath = path.join(process.cwd(), "public", imagePath.replace(/^\/+/, ""));
-    const { width, height } = await sharp(filePath).metadata();
-    if (width && height) dimensions = { width, height };
-  } catch {
-    // Keep the fallback - a missing or unreadable image should not fail the build.
-  }
-
-  imageDimensionCache.set(imagePath, dimensions);
-  return dimensions;
-}
-
-async function markdownToHtml(markdown) {
-  const file = await remark()
-    .use(remarkGfm)
-    // remark-html sanitizes by default, so raw HTML inside an article can never
-    // be injected into the page - articles are formatted with markdown only.
-    .use(remarkHtml)
-    .process(markdown);
-
-  return String(file);
 }
 
 function listArticleFiles() {
