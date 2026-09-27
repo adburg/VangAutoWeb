@@ -186,5 +186,3 @@ Kalenderen bruker i dag «bilservice Hamar» som primærfrase i flere måneder. 
   serviceverksteder», tidslinjen fra 1960). Eier har sagt at eksisterende tekst regnes som fakta og
   ikke skal røres. Tallene gjenbrukes likevel ikke i ny tekst før daglig leder har bekreftet dem.
   Oppdraget sier at «Iveco siden 2013» ikke er bekreftet, mens tidslinjen viser 2013. Det må avklares.
-- **Google-profilen** er lagt inn som delingslenken `https://share.google/FCWdeOWY6uVRDYCaD`.
-  Bytt til den faste Google Maps-URL-en når den er kjent.
