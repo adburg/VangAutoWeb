@@ -6,7 +6,7 @@ import Breadcrumbs from "../../components/Breadcrumbs";
 import { LinkArrow } from "../../components/Icons";
 import Layout from "../../components/Layout";
 import Seo from "../../components/Seo";
-import ServiceCard from "../../components/ServiceCard";
+import ServiceGrid from "../../components/ServiceGrid";
 import { breadcrumbSchema } from "../../lib/schema";
 import { getAllServices } from "../../lib/services";
 
@@ -58,16 +58,10 @@ const Tjenester = ({ services }) => {
             </p>
           </div>
 
-          <ul className="grid grid-cols-3 gap-12 gap-y-16 xl:grid-cols-2 xl:gap-x-10 md:grid-cols-1 md:gap-y-12">
-            {services.map((service, index) => (
-              <li key={service.slug}>
-                <ServiceCard service={service} headingLevel="h2" priority={index < 3} />
-              </li>
-            ))}
-          </ul>
+          <ServiceGrid services={services} headingLevel="h2" priorityCount={3} />
 
           <BookingCta
-            className="mx-auto mt-20 max-w-3xl"
+            className="mx-auto mt-36 max-w-3xl md:mt-24"
             text="Fyll ut skjemaet med registreringsnummer og hva du trenger hjelp til, så tar vi kontakt for å avtale tidspunkt."
           />
         </Layout>

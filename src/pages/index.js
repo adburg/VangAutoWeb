@@ -7,7 +7,7 @@ import AnimatedText from "../components/AnimatedText";
 import BookingCta from "../components/BookingCta";
 import Layout from "../components/Layout";
 import Seo from "../components/Seo";
-import ServiceCard from "../components/ServiceCard";
+import ServiceGrid from "../components/ServiceGrid";
 import Spinner from "../components/Spinner";
 import { getAllArticles } from "../lib/articles";
 import {
@@ -111,13 +111,7 @@ export default function Home({ services, latestArticles }) {
               Fra EU-kontroll og dekkskift til karosseri og reparasjon av varebil.
               Hver tjeneste har en egen side med det du trenger å vite.
             </p>
-            <ul className="grid grid-cols-3 gap-12 gap-y-16 xl:grid-cols-2 xl:gap-x-10 md:grid-cols-1 md:gap-y-12">
-              {services.map((service) => (
-                <li key={service.slug}>
-                  <ServiceCard service={service} headingLevel="h3" />
-                </li>
-              ))}
-            </ul>
+            <ServiceGrid services={services} headingLevel="h3" />
             <div className="mt-12 text-center">
               <Link href="/tjenester" className="text-lg font-semibold underline underline-offset-2">
                 Se alle tjenestene
