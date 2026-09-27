@@ -10,7 +10,7 @@ order: 1
 relatedServices:
   - "service-og-reparasjon"
   - "varebil-bobil-og-lastebil"
-  - "dekkskift-og-dekkhotell"
+  - "karosseri-og-frontrute"
 articleTerms:
   - "EU-kontroll"
 faq:
@@ -46,7 +46,7 @@ Du kan godt ta kontrollen tidligere. Tar du den mer enn to måneder før fristen
 
 Kontrollen følger kontrollinstruksen fra Statens vegvesen. Finner mekanikeren mangler, får du vite nøyaktig hva som må rettes. Du kan velge å få feilene rettet på samme verksted. Da slipper du å kjøre bilen til et annet verksted før den kontrolleres på nytt.
 
-Husk at EU-kontrollen ikke er en full tilstandsrapport. Begynnende rust og driftssikkerhet blir for eksempel ikke fanget opp. Vil du vite mer om tilstanden, kan du kombinere kontrollen med en [service](/tjenester/service-og-reparasjon).
+Husk at EU-kontrollen ikke er en full tilstandsrapport. Begynnende rust og driftssikkerhet blir for eksempel ikke fanget opp. Rustskader kan repareres i [karosseriavdelingen](/tjenester/karosseri-og-frontrute). Vil du vite mer om tilstanden, kan du kombinere kontrollen med en [service](/tjenester/service-og-reparasjon).
 
 ## EU-kontroll og garantien
 

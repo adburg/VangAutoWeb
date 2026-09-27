@@ -10,7 +10,7 @@ order: 2
 relatedServices:
   - "eu-kontroll"
   - "ac-service"
-  - "dekkskift-og-dekkhotell"
+  - "firehjulskontroll"
 articleTerms:
   - "service"
   - "reparasjon"
