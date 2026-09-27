@@ -116,10 +116,54 @@ Ingen JSON-LD på noen side. Det finnes ingen `LocalBusiness`/`AutoRepair`, `Web
 
 ## 11. Utenfor oppdraget, men notert
 
-- Cookie-banneret og `/cookies` er på engelsk.
-- Kontaktskjemaet viser `alert()` ved feil.
+- Cookie-banneret og `/cookies` er på engelsk. (Oversatt på `seo-pass`.)
+- Kontaktskjemaet viser `alert()` ved feil. (Ikke endret.)
+- `AnimatedNumbers` på `/omoss` rendrer tallene (60+, 10+, 100k+) først i nettleseren.
+  I server-HTML-en står bare «+». (Ikke endret, fordi `/omoss` skal holdes urørt.)
+- Bildene i `public/images/projects/` brukes ikke lenger, med unntak av `firehjuls.jpg`.
+  De er ikke slettet.
 
-## 12. Verifisering av refaktoreringen
+## 12. Resultat av verifiseringen på `seo-pass`
 
-Fylles ut etter at `markdownToHtml` og `getImageDimensions` er flyttet ut av
-`src/lib/articles.js`. Se avsnittet «Resultat» nederst.
+### Refaktoreringen av `src/lib/articles.js`
+
+`markdownToHtml` og `getImageDimensions` ble flyttet til `src/lib/markdown.js` og
+`src/lib/images.js`. Før flyttingen ble alle 9 artikler bygget fra `main` og lagret
+(`.next/server/pages/blog/*.html` og `*.json`). Etter flyttingen ble de bygget på nytt og diffet.
+
+```
+props-JSON (inneholder contentHtml, bildebredde/-høyde, slug, dato):
+  dekkhotell.json   IDENTICAL      klima.json        IDENTICAL
+  femtiaar.json     IDENTICAL      miljosert.json    IDENTICAL
+  ferieklar.json    IDENTICAL      sekstitoaar.json  IDENTICAL
+  service.json      IDENTICAL      sommerdekk.json   IDENTICAL
+  varebil.json      IDENTICAL
+$ diff baseline/dekkhotell.json .next/server/pages/blog/dekkhotell.json
+  (tom diff)
+
+HTML: rå diff av dekkhotell.html er 10 linjer, og bare build-ID i
+/_next/static/<buildId>/-stiene er forskjellig. Normalisert for build-ID er
+diffen tom for alle 9 artikler.
+```
+
+Etter hver senere commit ble `contentHtml`, bildedimensjoner, slug og dato for alle 9
+artikler sammenlignet mot den samme baselinen. Alt var identisk hver gang, og ingen
+artikkel-URL har endret seg.
+
+### Ende-til-ende-sjekk (`next start`)
+
+Kjørt mot alle 23 URL-er i `sitemap.xml` og de 3 noindex-sidene. Alt passerte:
+
+- nøyaktig én H1 per side
+- ingen meta keywords, `og:locale` er `nb_NO`, `og:image` er absolutt, alle `<img>` har alt
+- canonical er absolutt uten avsluttende skråstrek, og forsiden er `https://vangauto.no`
+- title ≤ 60 tegn; description 120–160 på egne sider og 100–175 på artikler
+- JSON-LD kan parses: AutoRepair + WebSite (forside), Service + BreadcrumbList
+  (tjenester), BlogPosting + BreadcrumbList (artikler), BreadcrumbList (`/tjenester`).
+  Ingen FAQPage, rating eller pris.
+- noindex-sidene har `noindex` og ingen canonical
+- `/sitemap.xml` (application/xml) og `/robots.txt` svarer
+- `/tjenester/en-ukjent-slug`, `/blog/en-ukjent-slug` og `/finnes-ikke` gir 404 med
+  den norske 404-siden
+- et artikkelutkast (`draft: true`) kom ikke med i sitemap
+- en artikkel uten `title` stoppet sitemap-genereringen med feilmelding som navngir filen
