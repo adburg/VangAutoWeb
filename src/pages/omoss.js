@@ -1,9 +1,10 @@
 import React, { useEffect, useRef } from "react";
-import Head from "next/head";
+import Seo from "../components/Seo";
 import AnimatedText from "../components/AnimatedText";
 import Layout from "../components/Layout";
 import omPic from "../../public/images/profile/omoss.jpg";
 import Image from "next/image";
+import Link from "next/link";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Skills from "../components/Skills";
 import Historie from "../components/Historie";
@@ -35,22 +36,11 @@ const AnimatedNumbers = ({ value }) => {
 const Omoss = () => {
   return (
     <>
-      <Head>
-        <title>Om Oss | Bilverksted med 60+ års erfaring nær Hamar | Vang Auto</title>
-        <meta
-          name="description"
-          content="Vang Auto bilverksted nær Hamar har over 60 års erfaring med EU-kontroll, service bil og dekkskifte. Vi er Meca- og Iveco-verksted med 10+ sertifiserte mekanikere. Betjener Hamar, Løten og Elverum."
-        />
-        <meta
-          name="keywords"
-          content="bilverksted Hamar erfaring, Meca verksted Hamar, Iveco verksted Hamar, EU-kontroll Hamar, service bil Hamar, verksted Løten"
-        />
-        <meta property="og:title" content="Om Oss | Bilverksted med 60+ års erfaring nær Hamar | Vang Auto" />
-        <meta property="og:description" content="Vang Auto bilverksted nær Hamar. Over 60 år med EU-kontroll, service og dekkskifte. Meca- og Iveco-verksted med 10+ sertifiserte mekanikere." />
-        <meta property="og:type" content="website" />
-        <meta name="geo.region" content="NO-INN" />
-        <meta name="geo.placename" content="Hamar" />
-      </Head>
+      <Seo
+        title="Om oss – MECA-verksted ved Hamar"
+        description="Vang Auto har over 60 år i bransjen. Vi er MECA-verksted, Iveco-serviceforhandler, Dekkpartner og Miljøfyrtårn, like utenfor Hamar."
+        path="/omoss"
+      />
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-10">
           <AnimatedText
@@ -79,7 +69,7 @@ const Omoss = () => {
                 med kjøp og salg av nye og brukte Iveco-kjøretøy.
               </p>
               <h3 className="font-bold">Meca</h3>
-              <p className="font-medium">
+              <p className="font-medium mb-4">
                 Vi er tilknyttet Meca verkstedkjeden som har bilverksteder
                 utover hele landet. Dette medfører at vi oppfyller en
                 kvalitetsstandard bestemt av Meca. Vi benytter deler fra Meca
@@ -87,13 +77,36 @@ const Omoss = () => {
                 gjør at delenes kan leveres med garanti som gir trygghet for deg
                 som kunde.
               </p>
+              <h3 className="font-bold">Dekkpartner</h3>
+              <p className="font-medium mb-4">
+                Vang Auto er Dekkpartner, med et bredt utvalg av dekk og felger.
+                Du kan også bestille på dekkpartner.no og få dem montert på
+                verkstedet. Les mer om{" "}
+                <Link href="/tjenester/dekkskift-og-dekkhotell" className="underline underline-offset-2">
+                  dekkskift og dekkhotell
+                </Link>
+                .
+              </p>
+              <h3 className="font-bold">Miljøfyrtårn, elbil og flåte</h3>
+              <p className="font-medium">
+                Vang Auto er sertifisert som{" "}
+                <Link href="/miljo" className="underline underline-offset-2">
+                  Miljøfyrtårn
+                </Link>{" "}
+                og elbilsertifisert gjennom MECA. Verkstedet er også flåteverksted
+                for bedrifter med flere biler. Se alle{" "}
+                <Link href="/tjenester" className="underline underline-offset-2">
+                  tjenestene våre
+                </Link>
+                .
+              </p>
             </div>
 
             <div className="col-span-4 mt-4 xl:mt-8 2xl:mt-1 lg:mt-24 md:mt-8 sm:mt-4 relative flex justify-center h-max rounded-3xl border-2 border-solid border-dark dark:border-light bg-light p-4 sm:p-2 dark:bg-dark 2xl:col-span-4 md:order-1 md:col-span-9">
               <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light" />
               <Image
                 src={omPic}
-                alt="Vang Auto"
+                alt="De ansatte i Vang Auto foran verkstedet med MECA- og Iveco-skilt"
                 className="w-full h-auto rounded-2xl "
                 priority={true}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"

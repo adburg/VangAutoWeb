@@ -6,7 +6,7 @@ excerpt: "Den første august var det 50 år siden Geir Bjørnstad begynte å job
 image: "/images/articles/femtiaar.jpg"
 imageAlt: "Mekanikerveteran med 50 år hos Vang Auto"
 seoTitle: "50 Års Jubileum – Vang Auto Bilverksted | Hamar"
-seoDescription: "Les om Geir Bjørnstad som feiret 50 år som mekaniker på Vang Auto bilverksted nær Hamar. Et verksted med lang tradisjon og over 60 års solid erfaring i bransjen."
+seoDescription: "Geir Bjørnstad feiret 50 år som mekaniker hos Vang Auto. Les om jubileet på verkstedet like utenfor Hamar, som har over 60 år i bransjen."
 ogDescription: "50-års jubileum for mekaniker på Vang Auto bilverksted nær Hamar. Et verksted med lang tradisjon og solid erfaring."
 keywords:
   - "Vang Auto historie"

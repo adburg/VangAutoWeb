@@ -32,9 +32,9 @@ export default function CookieBanner() {
       <div className="fixed bottom-0 left-0 right-0 flex flex-row gap-6 md:flex-col md:text-center items-center justify-between px-8 py-8 bg-light">
         <Link href="/cookies">
           <p className="md:text-sm">
-            This website uses cookies to improve user experience. By using our
-            website you consent to all cookies in accordance with our
-            <span className=" font-bold text-blue-800"> Cookie Policy</span>
+            Nettstedet bruker informasjonskapsler til besøksstatistikk (Google
+            Analytics). Du kan godta eller avslå. Les mer om{" "}
+            <span className="font-bold text-blue-800">informasjonskapsler</span>.
           </p>
         </Link>
         <div className="flex gap-2">
@@ -42,13 +42,13 @@ export default function CookieBanner() {
             className="px-5 py-2 md:text-sm text-dark rounded-md border-gray-900"
             onClick={() => setCookieConsent(false)}
           >
-            Decline
+            Avslå
           </button>
           <button
             className="bg-dark md:text-sm px-3 py-2 text-light rounded-lg"
             onClick={() => setCookieConsent(true)}
           >
-            Allow Cookies
+            Godta
           </button>
         </div>
       </div>

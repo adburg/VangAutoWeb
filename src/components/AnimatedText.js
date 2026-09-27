@@ -1,52 +1,34 @@
 import React from "react";
-import { motion } from "framer-motion";
 
-const quote = {
-  initial: {
-    opacity: 1
-  },
-  animate: {
-    opacity: 1,
-    transition: {
-      delay: 0.5,
-      staggerChildren: 0.08
-    }
-  }
-};
-
-const singleWord = {
-  initial: {
-    opacity: 0,
-    y: 50
-  },
-  animate: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 1
-    }
-  }
-};
+/**
+ * The page H1 with the word-by-word rise-in effect.
+ *
+ * The animation is plain CSS (.animated-word in globals.css) rather than
+ * Framer Motion, so the heading starts animating on first paint instead of
+ * waiting for JavaScript to hydrate. That keeps the H1 - often the largest
+ * element on the page - from holding back Largest Contentful Paint.
+ */
+const WORD_DELAY_SECONDS = 0.08;
+const START_DELAY_SECONDS = 0.1;
 
 const AnimatedText = ({ text, className = "" }) => {
   return (
     <div className="w-full mx-auto py-2 flex items-center justify-center text-center overflow-hidden sm:py-0">
-      <motion.h1
+      <h1
         className={`inline-block w-full text-blue-800 font-bold dark:text-light capitalize text-7xl ${className}`}
-        variants={quote}
-        initial="initial"
-        animate="animate"
       >
         {text.split(" ").map((word, index) => (
-          <motion.span
+          <span
             key={word + "-" + index}
-            className="inline-block"
-            variants={singleWord}
+            className="animated-word"
+            style={{
+              animationDelay: `${START_DELAY_SECONDS + index * WORD_DELAY_SECONDS}s`
+            }}
           >
             {word}&nbsp;
-          </motion.span>
+          </span>
         ))}
-      </motion.h1>
+      </h1>
     </div>
   );
 };

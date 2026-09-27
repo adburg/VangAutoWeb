@@ -6,7 +6,7 @@ excerpt: "Temperaturen stiger på Østlandet, og vi begynner å bevege oss inn i
 image: "/images/articles/dekkhotell.jpg"
 imageAlt: "Sommerdekk klare for dekkskifte"
 seoTitle: "Dekkskifte til sommerdekk ved Hamar | Vang Auto"
-seoDescription: "Det er tid for dekkskifte til sommerdekk! Vang Auto tilbyr dekkskift og dekkhotell nær Hamar, Løten og Elverum. Vi er offisiell Dekkpartner – bestill time i dag!"
+seoDescription: "Tid for dekkskift til sommerdekk. Les om piggdekkfristen, krav til mønsterdybde og dekkhotell hos Vang Auto, like utenfor Hamar."
 ogTitle: "Dekkskifte til Sommerdekk nær Hamar | Vang Auto"
 ogDescription: "Tid for dekkskifte til sommerdekk! Vang Auto tilbyr dekkskift og dekkhotell nær Hamar, Løten og Elverum. Offisiell Dekkpartner."
 keywords:

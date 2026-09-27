@@ -5,6 +5,7 @@ import { useRouter } from "next/router";
 import { CallIcon, FacebookIcon, MoonIcon, SunIcon } from "./Icons";
 import { motion } from "framer-motion";
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
+import { PHONE_HREF } from "../lib/business";
 
 const MotionLink = motion(Link);
 
@@ -117,7 +118,7 @@ const NavBar = () => {
             <FacebookIcon />
           </motion.a>
           <motion.a
-            href={`tel:${+4762595733}`}
+            href={PHONE_HREF}
             target={"_self"}
             whileHover={{ y: -2 }}
             className="w-8 mx-3 dark:invert rounded-2xl"
@@ -223,7 +224,7 @@ const NavBar = () => {
               <FacebookIcon />
             </motion.a>
             <motion.a
-              href={`tel:${+4762595733}`}
+              href={PHONE_HREF}
               target={"_self"}
               whileHover={{ y: -2 }}
               className="w-8 mx-3 invert dark:invert-0 rounded-2xl  sm:mx-1"

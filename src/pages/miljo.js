@@ -1,28 +1,17 @@
 import AnimatedText from "../components/AnimatedText";
 import Layout from "../components/Layout";
-import Head from "next/head";
+import Seo from "../components/Seo";
 import React from "react";
 import ContactFormEnv from "../components/ContactFormEnv";
 
 const Miljo = () => {
   return (
     <>
-      <Head>
-        <title>Miljøvennlig Bilverksted Hamar | Miljøfyrtårn | Vang Auto</title>
-        <meta
-          name="description"
-          content="Vang Auto bilverksted nær Hamar er Miljøfyrtårn-sertifisert siden 2024. Vi tilbyr EU-kontroll, service bil og dekkskifte med fokus på bærekraft og miljøansvar."
-        />
-        <meta
-          name="keywords"
-          content="miljøvennlig bilverksted Hamar, Miljøfyrtårn verksted, bærekraftig verksted Hamar, EU-kontroll Hamar, service bil Hamar"
-        />
-        <meta property="og:title" content="Miljøvennlig Bilverksted Hamar | Miljøfyrtårn | Vang Auto" />
-        <meta property="og:description" content="Vang Auto bilverksted nær Hamar er Miljøfyrtårn-sertifisert. EU-kontroll, service og dekkskifte med miljøfokus." />
-        <meta property="og:type" content="website" />
-        <meta name="geo.region" content="NO-INN" />
-        <meta name="geo.placename" content="Hamar" />
-      </Head>
+      <Seo
+        title="Miljøfyrtårn-sertifisert verksted"
+        description="Vang Auto er sertifisert som Miljøfyrtårn. Les om miljøarbeidet på verkstedet, rapportene fra 2023 til 2025 og hvordan du kan komme med innspill."
+        path="/miljo"
+      />
       <main className="w-full flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-10">
           <AnimatedText

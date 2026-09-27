@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import AnimatedText from "../components/AnimatedText";
-import Head from "next/head";
+import Seo from "../components/Seo";
 import Layout from "../components/Layout";
 import Confetti from "react-confetti";
 
@@ -21,10 +21,7 @@ const Bestiltenv = () => {
 
   return (
     <>
-      <Head>
-        <title>Vang Auto | Mottatt </title>
-        <meta name="robots" content="noindex" />
-      </Head>
+      <Seo title="Takk for innspillet" path="/bestiltenv" noindex />
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
         <Layout className="pt-16 min-h-screen">
           <AnimatedText

@@ -118,6 +118,21 @@ Don't remove these — the cards fall out of alignment immediately.
 
 ---
 
+## SEO layer and service pages
+
+Read `docs/seo/seo-kontrakt.md` before changing copy, metadata or structured data.
+
+- Every page renders metadata through `src/components/Seo.js` (rules in
+  `src/lib/seo.js`). NAP strings live only in `src/lib/business.js`.
+- JSON-LD is built in `src/lib/schema.js` and must match visible content.
+- Service pages are markdown in `src/content/tjenester/<slug>.md`, loaded by
+  `src/lib/services.js` and rendered by `src/pages/tjenester/[slug].js`.
+- `sitemap.xml` and `robots.txt` are written to `public/` by
+  `scripts/generate-seo-files.mjs` (npm `postbuild`, gitignored). That script
+  imports `src/lib` as plain Node ESM, so relative imports there keep `.js`.
+
+---
+
 ## Future work (not built yet)
 
 An n8n workflow will eventually generate an article, commit one `.md` file plus
