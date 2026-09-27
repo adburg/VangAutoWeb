@@ -21,14 +21,14 @@ faq:
   - q: "Kan steinsprut i frontruten repareres?"
     a: "Ofte ja, hvis skaden er liten. Den bør repareres tidlig, før kulde eller nye slag får den til å sprekke videre."
   - q: "Bytter dere hele frontruten?"
-    a: "Ja. Vang Auto bytter frontrute i egen karosseriavdeling når skaden er for stor til å repareres."
+    a: "Ja. Vang Auto bytter frontrute når skaden er for stor til å repareres."
   - q: "Reparerer dere rust?"
     a: "Ja. Vang Auto reparerer rustskader på karosseriet. Jo tidligere rusten blir tatt, jo mindre blir skaden."
   - q: "Fanger EU-kontrollen opp rust?"
-    a: "Ikke alltid. Statens vegvesen skriver at begynnende rustskader ikke blir fanget opp av EU-kontrollen."
+    a: "Ikke alltid. Statens vegvesen skriver at typisk så vil ikke begynnende rustskader bli fanget opp av EU-kontrollen."
 ---
 
-Små skader på karosseriet og ruten blir gjerne større hvis de får stå. Vang Auto har egen karosseriavdeling på verkstedet like utenfor Hamar. Der blir bulker rettet, rust reparert og frontruter reparert eller byttet.
+Små skader på karosseriet og ruten blir gjerne større hvis de får stå. Vang Auto har et karosseritilbud på verkstedet vårt like utenfor Hamar. Der blir bulker rettet, rust reparert og frontruter reparert eller byttet.
 
 ## Bulker og skader i karosseriet
 
@@ -46,11 +46,11 @@ Et lite steinsprut kan ofte repareres. Da fylles skaden, slik at den ikke sprekk
 
 ## Bytte av frontrute
 
-Er skaden for stor til å repareres, må ruten byttes. Vang Auto bytter hele frontruten i karosseriavdelingen. Frontruten er viktig for sikten, og sikt er en av tingene som blir sjekket på [EU-kontrollen](/tjenester/eu-kontroll).
+Er skaden for stor til å repareres, må ruten byttes. Vang Auto bytter hele frontruten for deg. Frontruten er viktig for sikten, og sikt er en av tingene som blir sjekket på [EU-kontrollen](/tjenester/eu-kontroll).
 
 ## Personbil og varebil
 
-Karosseriavdelingen tar skader på både personbil og varebil. Større kjøretøy tas også inn til reparasjon. Les mer om [verkstedet for varebil, bobil og lastebil](/tjenester/varebil-bobil-og-lastebil).
+Vi tar på oss skader på både personbil og varebil. Større kjøretøy tas også inn til reparasjon. Les mer om [verkstedet for varebil, bobil og lastebil](/tjenester/varebil-bobil-og-lastebil).
 
 ## Garantien
 

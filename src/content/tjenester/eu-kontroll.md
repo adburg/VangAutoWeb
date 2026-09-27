@@ -21,7 +21,7 @@ faq:
   - q: "Hva må jeg ta med til EU-kontroll av elbil?"
     a: "Ta med den løse ladekabelen. Statens vegvesen krever at den blir kontrollert sammen med bilen."
   - q: "Hva skjer hvis bilen ikke blir godkjent?"
-    a: "Du får vite hvilke mangler som må rettes. Hos Vang Auto kan du få feilene rettet på samme verksted før bilen kontrolleres på nytt."
+    a: "Du får vite hvilke mangler som må rettes. Hos Vang Auto kan du få feilene repartert før vi til slutt godkjenner kjøretøyet."
   - q: "Tar dere EU-kontroll på bobil?"
     a: "Ja. Vang Auto tar EU-kontroll på bobil, i tillegg til personbil, varebil og lett lastebil."
 ---

@@ -18,16 +18,16 @@ articleTerms:
   - "pollenfilter"
 faq:
   - q: "Hvor ofte bør klimaanlegget ha service?"
-    a: "Vang Auto anbefaler kontroll og service av klimaanlegget én gang i året."
+    a: "Vang Auto anbefaler kontroll og service av klimaanlegget én gang i året, eller samtidig som du tar servicen din hvis bilen din er relativt ny"
   - q: "Hvorfor lukter det vondt fra ventilasjonen?"
     a: "Ofte skyldes det mugg og bakterier i anlegget, eller et gammelt pollenfilter. En rens og et nytt filter hjelper som regel."
   - q: "Hvor ofte bør pollenfilteret skiftes?"
     a: "Vang Auto anbefaler å skifte pollenfilteret én gang i året."
   - q: "Blir klimaanlegget sjekket på en vanlig service?"
-    a: "Ikke alltid så grundig som det trenger. Spør om AC-service når du bestiller vanlig service, så kan begge deler gjøres samtidig."
+    a: "Ikke alltid så grundig som det trengs. Dette er ofte ikke omfattet omstendelig i bilmerkenes servicekrav. Spør om AC-service når du bestiller vanlig service, så kan begge deler gjøres samtidig."
 ---
 
-Klimaanlegget holder temperaturen og fuktigheten i bilen stabil. Det gjør turen mer behagelig og holder rutene fri for dugg. Hos Vang Auto tar vi AC-service på alle bilmerker, på verkstedet like utenfor Hamar.
+Klimaanlegget holder temperaturen og fuktigheten i bilen stabil. Det gjør turen mer behagelig og holder rutene fri for dugg. Hos Vang Auto tar vi AC-service på bilen din. Verkstedet ligger like utenfor Hamar.
 
 ## Hvorfor anlegget trenger service
 

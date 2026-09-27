@@ -24,8 +24,8 @@ faq:
   - q: "Kan jeg ta service på Iveco hos dere?"
     a: "Ja. Vang Auto er Iveco-serviceforhandler og tar service og reparasjoner på merket, også garantireparasjoner."
   - q: "Gjelder garantien hvis bobilen tar service hos dere?"
-    a: "Ja. Nybilgarantien gjelder som før når arbeidet utføres og dokumenteres etter produsentens krav."
-  - q: "Kan bedriften samle alle firmabilene hos dere?"
+    a: "Ja. Nybilgarantien gjelder som før når arbeidet utføres og dokumenteres etter produsentens krav, noe vi sørger for."
+  - q: "Kan bedriften min samle alle firmabilene hos dere?"
     a: "Ja. Vang Auto er flåteverksted og tar service, reparasjon og EU-kontroll på firmabiler og varebiler."
 ---
 
@@ -37,7 +37,7 @@ Vang Auto tar service, vedlikehold og reparasjon på alle merker og modeller. Ar
 
 ## Iveco-serviceforhandler
 
-Vang Auto er serviceforhandler for Iveco. Verkstedet utfører service og reparasjoner på merket, også garantireparasjoner. Vang Auto formidler også kontakt ved kjøp og salg av nye og brukte Iveco-kjøretøy.
+Vang Auto er serviceforhandler for Iveco. Verkstedet utfører service og reparasjoner på merket, også garantireparasjoner.
 
 ## Bobil
 
@@ -61,4 +61,4 @@ Mange varebiler og bobiler har klimaanlegg som trenger samme service som i en pe
 
 ## Slik bestiller du
 
-[Bestill time](/bestilltime) og skriv i skjemaet hvilket kjøretøy det gjelder. Oppgi gjerne registreringsnummer, merke og totalvekt.
+[Bestill time](/bestilltime) og skriv i skjemaet hvilket kjøretøy det gjelder. Oppgi gjerne registreringsnummer i skjemaet.

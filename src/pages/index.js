@@ -71,11 +71,12 @@ export default function Home({ services, latestArticles }) {
               </div>
               <div className="flex w-1/2 flex-col items-center self-center lg:w-full lg:text-center">
                 <AnimatedText
-                  text="Bilverkstedet like utenfor Hamar"
+                  text="Vang Auto AS - Hamar"
                   className="!text-7xl !text-left !normal-case xl:!text-6xl lg:!text-center lg:mb-2 md:mb-0 md:!text-5xl sm:!text-4xl"
                 />
                 <p className="my-4 text-lg font-medium md:text-base">
-                  Vang Auto tar service, reparasjon og EU-kontroll på personbil,
+                  Vang Auto er et bilverksted lett tilgjengelig fra både Hamar, Løten og Elverum.
+                  Vi utfører service, reparasjon og EU-kontroll på personbil,
                   varebil og bobil av alle merker. Verkstedet er MECA-verksted,
                   Iveco-serviceforhandler og Dekkpartner, med over 60 år i bransjen.
                 </p>
@@ -108,8 +109,8 @@ export default function Home({ services, latestArticles }) {
               Dette hjelper vi deg med
             </h2>
             <p className="mx-auto mb-12 max-w-3xl text-center text-lg font-medium md:text-base">
-              Fra EU-kontroll og dekkskift til karosseri og reparasjon av varebil.
-              Hver tjeneste har en egen side med det du trenger å vite.
+              Fra EU-kontroll og dekkskift/dekkhotell til karosseri og reparasjon av varebil.
+              Les mer om hver tjeneste på deres individuelle sider nedenfor.
             </p>
             <ServiceGrid services={services} headingLevel="h3" />
             <div className="mt-12 text-center">
@@ -124,11 +125,11 @@ export default function Home({ services, latestArticles }) {
               <h2 className="text-4xl font-bold md:text-3xl">Et lokalt verksted med lang erfaring</h2>
               <p className="mt-4 text-lg font-medium md:text-base">
                 Verkstedet ligger langs riksvei 25, like utenfor Hamar, med kort vei
-                fra Løten og Elverum. Vang Auto har over 60 år i bransjen og har egen
-                karosseriavdeling. Det er god plass til parkering.
+                fra Løten og Elverum. Vang Auto har over 60 år i bransjen og tilbyr et 
+                bredt utvalg av tjenester. Det er god plass til parkering.
               </p>
               <p className="mt-4 text-lg font-medium md:text-base">
-                Vi i Vang Auto tar imot personbiler, varebiler og bobiler av alle
+                Vi i Vang Auto tar imot personbiler, varebiler og bobiler av de fleste
                 merker. Du kan levere bilen til service, dekkskift og EU-kontroll på
                 samme sted. Les mer{" "}
                 <Link href="/omoss" className="font-semibold underline underline-offset-2">

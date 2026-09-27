@@ -20,7 +20,7 @@ faq:
   - q: "Bør jeg ta firehjulskontroll når jeg får nye dekk?"
     a: "Det er et godt tidspunkt, særlig hvis de gamle dekkene var skjevt slitt. Da får de nye dekkene en jevn start."
   - q: "Hvilket utstyr bruker dere?"
-    a: "Vang Auto bruker et moderne 3D hjulinnstillingsapparat med kameraer. Det måler vinklene på alle fire hjul med høy presisjon."
+    a: "Vang Auto bruker et moderne 3D hjulinnstillingsapparat med kameraer/sensorer. Det måler vinklene på alle fire hjul med høy presisjon."
   - q: "Tar dere firehjulskontroll på varebil?"
     a: "Ja. Vang Auto tar firehjulskontroll på både personbil og varebil."
 ---
@@ -29,7 +29,7 @@ Hjulstillingen bestemmer hvordan hjulene står mot veien og mot hverandre. Står
 
 ## Hva en firehjulskontroll er
 
-Ved en firehjulskontroll måles vinklene på alle fire hjul. Verkstedet bruker et moderne 3D hjulinnstillingsapparat med kameraer som leser av hjulene. Det gir høy presisjon. Viser målingen avvik, justeres hjulstillingen etter verdiene bilprodusenten har satt.
+Ved en firehjulskontroll måles vinklene på alle fire hjul. Verkstedet bruker et moderne 3D hjulinnstillingsapparat med kameraer og sensorer som leser av hjulene. Det gir høy presisjon. Viser målingen avvik, justeres hjulstillingen etter verdiene bilprodusenten har satt.
 
 ## Tegn på feil hjulstilling
 
@@ -47,7 +47,6 @@ Feil hjulstilling kan slite ut de berørte dekkene på kort tid. Det kan bli dyr
 - Etter at du har truffet en fortauskant eller et dypt hull i veien.
 - Når du får nye dekk, særlig hvis de gamle var skjevt slitt.
 - Etter reparasjon av styring eller hjuloppheng.
-- Når du merker noen av tegnene over.
 
 Mange tar kontrollen i forbindelse med [dekkskift](/tjenester/dekkskift-og-dekkhotell). Da ser mekanikeren samtidig hvordan dekkene er slitt. Er du usikker på hjulstillingen, er det bedre å sjekke den en gang for mye enn en gang for lite.
 
@@ -59,8 +58,5 @@ Firehjulskontroll gjøres på både personbil og varebil. En tungt lastet varebi
 
 Hjulstillingen kan endre seg når deler i styringen eller hjulopphenget skiftes. Vi i Vang Auto anbefaler derfor en kontroll etter slike reparasjoner. Den kan gjøres samtidig med [service og reparasjon](/tjenester/service-og-reparasjon).
 
-## Garantien
-
-Firehjulskontroll er vanlig vedlikehold. Nybilgarantien gjelder som før når arbeidet utføres og dokumenteres etter produsentens krav.
 
 [Bestill time](/bestilltime) og skriv gjerne hva du har merket, for eksempel at bilen trekker til én side.

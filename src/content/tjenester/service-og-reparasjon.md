@@ -27,7 +27,7 @@ faq:
   - q: "Hvor ofte bør girkassen flushes?"
     a: "Det varierer mellom produsentene. Ofte anbefales det rundt hver 60 000 kilometer. Serviceheftet viser hva som gjelder for din bil."
   - q: "Hvilke bilmerker tar dere?"
-    a: "Alle. Verkstedet tar service og reparasjon på personbil, varebil og bobil av alle merker."
+    a: "De aller fleste tradisjonelle bilmerker. Har du en veldig spesiell bil anbefaler vi å fortelle dette i forkant!"
 ---
 
 Bilen trenger jevnlig service for å gå trygt og holde seg i god stand. Hos Vang Auto tar vi service og reparasjon på alle bilmerker, også elbil og hybrid. Verkstedet ligger like utenfor Hamar.

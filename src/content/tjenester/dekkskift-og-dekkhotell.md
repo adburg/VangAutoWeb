@@ -28,7 +28,7 @@ faq:
     a: "Statens vegvesen anbefaler å etterstramme hjulboltene etter omtrent 40 kilometer kjøring."
 ---
 
-To ganger i året skal bilen over på nye dekk. Hos Vang Auto tar vi dekkskift på personbil, varebil og bobil, på verkstedet like utenfor Hamar. Vil du slippe å lagre hjulene selv, kan de stå på dekkhotellet vårt mellom sesongene.
+To ganger i året skal bilen over på nye dekk. Hos Vang Auto tar vi dekkskift på personbil, varebil og bobil. Verkstedet finner du like utenfor Hamar. Vil du slippe å lagre hjulene selv, kan de stå på dekkhotellet vårt mellom sesongene.
 
 ## Dekkskift
 
