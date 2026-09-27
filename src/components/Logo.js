@@ -27,7 +27,7 @@ const Logo = () => {
         <Image
           src={logoPic}
           priority={true}
-          alt="logo"
+          alt="Vang Auto – til forsiden"
           className="mt-2 ml-2 "
         />
       </MotionLink>
