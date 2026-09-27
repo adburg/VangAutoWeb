@@ -1,28 +1,17 @@
 import AnimatedText from "../components/AnimatedText";
 import ContactForm from "../components/ContactForm";
 import Layout from "../components/Layout";
-import Head from "next/head";
+import Seo from "../components/Seo";
 import React from "react";
 
 const Bestilltime = () => {
   return (
     <>
-      <Head>
-        <title>Bestill Time – Bilverksted Hamar | Vang Auto</title>
-        <meta
-          name="description"
-          content="Book time hos Vang Auto bilverksted enkelt og raskt. Vi er lett tilgjengelig fra Hamar, Løten og Elverum. EU-kontroll, service bil, dekkskifte og mer – ring eller bestill online!"
-        />
-        <meta
-          name="keywords"
-          content="bestill time bilverksted Hamar, verksted time Hamar, EU-kontroll bestilling Hamar, service bil Hamar, dekkskifte Løten"
-        />
-        <meta property="og:title" content="Bestill Time – Bilverksted Hamar | Vang Auto" />
-        <meta property="og:description" content="Book time hos Vang Auto bilverksted. Lett tilgjengelig fra Hamar, Løten og Elverum. EU-kontroll, service og dekkskifte." />
-        <meta property="og:type" content="website" />
-        <meta name="geo.region" content="NO-INN" />
-        <meta name="geo.placename" content="Hamar" />
-      </Head>
+      <Seo
+        title="Bestill time på verkstedet"
+        description="Bestill time hos Vang Auto for EU-kontroll, service, reparasjon eller dekkskift. Fyll ut skjemaet, så tar vi kontakt for å avtale et tidspunkt som passer."
+        path="/bestilltime"
+      />
       <main className="flex items-center w-full justify-center text-dark min-h-screen dark:text-light">
         <Layout className="pt-12">
           <div className="flex w-full items-center justify-center flex-col">

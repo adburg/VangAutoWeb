@@ -60,7 +60,7 @@ export default function App({ Component, pageProps }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main
+      <div
         className={
           `${montserrat.variable} font-mont bg-light dark:bg-dark w-full min-h-screen`
         }
@@ -71,7 +71,7 @@ export default function App({ Component, pageProps }) {
 
         <Footer />
         <CookieBanner />
-      </main>
+      </div>
     </>
   );
 }

@@ -1,6 +1,6 @@
 import AnimatedText from "../components/AnimatedText";
 import Layout from "../components/Layout";
-import Head from "next/head";
+import Seo from "../components/Seo";
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
@@ -116,22 +116,11 @@ const Service = ({ title, summary, img, link }) => {
 const Tjenester = () => {
   return (
     <>
-      <Head>
-        <title>EU-kontroll, Service & Dekkskifte Hamar | Vang Auto Verksted</title>
-        <meta
-          name="description"
-          content="Bestill EU-kontroll, service bil, dekkskifte og dekkhotell hos Vang Auto bilverksted nær Hamar, Løten og Elverum. Alle bilmerker, inkl. elbil og hybridbil."
-        />
-        <meta
-          name="keywords"
-          content="EU-kontroll Hamar, service bil Hamar, dekkskifte Hamar, verksted Hamar, bilverksted Løten, EU-kontroll Elverum, dekkhotell Hamar"
-        />
-        <meta property="og:title" content="EU-kontroll, Service & Dekkskifte Hamar | Vang Auto Verksted" />
-        <meta property="og:description" content="EU-kontroll, service bil, dekkskifte og dekkhotell hos Vang Auto. Nær Hamar, Løten og Elverum. Alle bilmerker inkl. elbil." />
-        <meta property="og:type" content="website" />
-        <meta name="geo.region" content="NO-INN" />
-        <meta name="geo.placename" content="Hamar" />
-      </Head>
+      <Seo
+        title="Verkstedtjenester i Hamar"
+        description="Se alle tjenestene hos Vang Auto: EU-kontroll, service og reparasjon, AC-service, firehjulskontroll, dekkskift, karosseri og verksted for varebil og bobil."
+        path="/tjenester"
+      />
       <main className="w-full mb-16 flex flex-col items-cener justify-center dark:text-light">
         <Layout className="pt-10">
           <AnimatedText

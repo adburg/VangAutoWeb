@@ -1,6 +1,6 @@
 import AnimatedText from "../components/AnimatedText";
 import Layout from "../components/Layout";
-import Head from "next/head";
+import Seo from "../components/Seo";
 import React from "react";
 import ArticleList from "../components/articles/ArticleList";
 import FeaturedArticle from "../components/articles/FeaturedArticle";
@@ -9,22 +9,11 @@ import { getAllArticles } from "../lib/articles";
 const Artikler = ({ featured, rest }) => {
   return (
     <>
-      <Head>
-        <title>Artikler om Bil & Verksted | Vang Auto Hamar</title>
-        <meta
-          name="description"
-          content="Les nyttige artikler om bilstell, dekkskifte, EU-kontroll og service bil fra Vang Auto bilverksted nær Hamar, Løten og Elverum. Tips og råd fra ekspertene."
-        />
-        <meta
-          name="keywords"
-          content="bilartikler Hamar, dekkskifte tips, EU-kontroll informasjon, service bil råd, verksted Hamar, Vang Auto Hamar"
-        />
-        <meta property="og:title" content="Artikler om Bil & Verksted | Vang Auto Hamar" />
-        <meta property="og:description" content="Les nyttige artikler om dekkskifte, EU-kontroll og service bil fra Vang Auto bilverksted nær Hamar, Løten og Elverum." />
-        <meta property="og:type" content="website" />
-        <meta name="geo.region" content="NO-INN" />
-        <meta name="geo.placename" content="Hamar" />
-      </Head>
+      <Seo
+        title="Artikler om bil og verksted"
+        description="Artikler fra Vang Auto om dekk, EU-kontroll, service og vedlikehold av bil. Praktiske råd fra et bilverksted like utenfor Hamar med over 60 år i bransjen."
+        path="/artikler"
+      />
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
         <Layout className="pt-10">
           <AnimatedText

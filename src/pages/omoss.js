@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import Head from "next/head";
+import Seo from "../components/Seo";
 import AnimatedText from "../components/AnimatedText";
 import Layout from "../components/Layout";
 import omPic from "../../public/images/profile/omoss.jpg";
@@ -35,22 +35,11 @@ const AnimatedNumbers = ({ value }) => {
 const Omoss = () => {
   return (
     <>
-      <Head>
-        <title>Om Oss | Bilverksted med 60+ års erfaring nær Hamar | Vang Auto</title>
-        <meta
-          name="description"
-          content="Vang Auto bilverksted nær Hamar har over 60 års erfaring med EU-kontroll, service bil og dekkskifte. Vi er Meca- og Iveco-verksted med 10+ sertifiserte mekanikere. Betjener Hamar, Løten og Elverum."
-        />
-        <meta
-          name="keywords"
-          content="bilverksted Hamar erfaring, Meca verksted Hamar, Iveco verksted Hamar, EU-kontroll Hamar, service bil Hamar, verksted Løten"
-        />
-        <meta property="og:title" content="Om Oss | Bilverksted med 60+ års erfaring nær Hamar | Vang Auto" />
-        <meta property="og:description" content="Vang Auto bilverksted nær Hamar. Over 60 år med EU-kontroll, service og dekkskifte. Meca- og Iveco-verksted med 10+ sertifiserte mekanikere." />
-        <meta property="og:type" content="website" />
-        <meta name="geo.region" content="NO-INN" />
-        <meta name="geo.placename" content="Hamar" />
-      </Head>
+      <Seo
+        title="Om oss – MECA-verksted ved Hamar"
+        description="Vang Auto har over 60 år i bransjen. Vi er MECA-verksted, Iveco-serviceforhandler, Dekkpartner og Miljøfyrtårn, like utenfor Hamar."
+        path="/omoss"
+      />
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-10">
           <AnimatedText

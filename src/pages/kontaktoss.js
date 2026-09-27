@@ -1,6 +1,6 @@
 import AnimatedText from "../components/AnimatedText";
 import Layout from "../components/Layout";
-import Head from "next/head";
+import Seo from "../components/Seo";
 import React from "react";
 import tlfPic from "../../public/images/contact/phoneicon.png";
 import mailPic from "../../public/images/contact/mailicon.png";
@@ -8,26 +8,16 @@ import addressPic from "../../public/images/contact/addressicon.png";
 import openingPic from "../../public/images/contact/opening.png";
 import Image from "next/image";
 import ContactForm from "../components/ContactForm";
+import { BUSINESS, PHONE_HREF } from "../lib/business";
 
 const Kontaktoss = () => {
   return (
     <>
-      <Head>
-        <title>Kontakt Oss | Vang Auto Bilverksted – Hamar, Løten, Elverum</title>
-        <meta
-          name="description"
-          content="Ta kontakt med Vang Auto bilverksted. Vi er nær Hamar, Løten og Elverum – ring oss, send e-post eller bruk kontaktskjemaet. EU-kontroll, service bil, dekkskifte og mer."
-        />
-        <meta
-          name="keywords"
-          content="kontakt bilverksted Hamar, Vang Auto tlf, verksted Hamar kontakt, bilverksted Løten, bilverksted Elverum"
-        />
-        <meta property="og:title" content="Kontakt Oss | Vang Auto Bilverksted – Hamar, Løten, Elverum" />
-        <meta property="og:description" content="Ta kontakt med Vang Auto bilverksted nær Hamar, Løten og Elverum. EU-kontroll, service og dekkskifte." />
-        <meta property="og:type" content="website" />
-        <meta name="geo.region" content="NO-INN" />
-        <meta name="geo.placename" content="Hamar" />
-      </Head>
+      <Seo
+        title="Kontakt og åpningstider"
+        description="Kontakt Vang Auto i Vindholvegen 1, 2324 Vang På Hedmark. Ring 62 59 57 33 eller send e-post. Åpent mandag til fredag 07.00–16.00, like utenfor Hamar."
+        path="/kontaktoss"
+      />
       <main className="w-full flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-10">
           <AnimatedText
@@ -122,11 +112,11 @@ const Kontaktoss = () => {
                 />
                 <p className="font-bold text-lg my-4">Ring Oss</p>
                 <a
-                  href={`tel:${+4762595733}`}
+                  href={PHONE_HREF}
                   target={"_self"}
                   className="text-md font-medium capitalize text-dark underline dark:text-light"
                 >
-                  +47 625 95 733
+                  {BUSINESS.phone.display}
                 </a>
               </div>
             </div>

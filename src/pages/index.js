@@ -1,32 +1,21 @@
 import Layout from "../components/Layout";
-import Head from "next/head";
+import Seo from "../components/Seo";
 import mechanicPic from "../../public/images/profile/mechanic-animated.png";
 import Image from "next/image";
 import AnimatedText from "../components/AnimatedText";
 import Link from "next/link";
 import Spinner from "../components/Spinner";
 import mecaIveco from "../../public/images/svgs/meca-iveco.png";
+import { BUSINESS, PHONE_HREF } from "../lib/business";
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Bilverksted Hamar | EU-kontroll & Dekkskifte | Vang Auto</title>
-        <meta
-          name="description"
-          content="Vang Auto er ditt lokale bilverksted nær Hamar, Løten og Elverum. Vi tilbyr EU-kontroll, service på bil, dekkskifte og dekkhotell. Over 60 års erfaring – bestill time i dag!"
-        />
-        <meta
-          name="keywords"
-          content="bilverksted Hamar, verksted Hamar, EU-kontroll Hamar, service bil Hamar, dekkskifte Hamar, bilverksted Løten, bilverksted Elverum, Vang Auto"
-        />
-        <meta property="og:title" content="Bilverksted Hamar | EU-kontroll & Dekkskifte | Vang Auto" />
-        <meta property="og:description" content="Vang Auto er ditt lokale bilverksted nær Hamar, Løten og Elverum. EU-kontroll, service, dekkskifte og dekkhotell. Over 60 års erfaring." />
-        <meta property="og:image" content="https://vangauto.no/images/articles/mechanic-animated.png" />
-        <meta property="og:type" content="website" />
-        <meta name="geo.region" content="NO-INN" />
-        <meta name="geo.placename" content="Hamar" />
-      </Head>
+      <Seo
+        title="Bilverksted like utenfor Hamar"
+        description="Vang Auto er et MECA-verksted like utenfor Hamar. Vi tar service, reparasjon, EU-kontroll og dekkskift på bil, varebil og bobil. Over 60 år i bransjen."
+        path="/"
+      />
 
       <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
         <Layout className="pt-0 xl:-mt-32">
@@ -64,11 +53,11 @@ export default function Home() {
                   Bestill Time
                 </Link>
                 <a
-                  href={`tel:${+4762595733}`}
+                  href={PHONE_HREF}
                   target={"_self"}
                   className="ml-6 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base"
                 >
-                  +47 625 95 733
+                  {BUSINESS.phone.display}
                 </a>
               </div>
             </div>

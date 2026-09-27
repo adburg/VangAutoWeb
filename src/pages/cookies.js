@@ -1,4 +1,4 @@
-import Head from "next/head";
+import Seo from "../components/Seo";
 import React from "react";
 import Layout from "../components/Layout";
 import AnimatedText from "../components/AnimatedText";
@@ -6,10 +6,7 @@ import AnimatedText from "../components/AnimatedText";
 const cookies = () => {
   return (
     <>
-      <Head>
-        <title>Vang Auto | Cookies</title>
-        <meta name="robots" content="noindex" />
-      </Head>
+      <Seo title="Informasjonskapsler" path="/cookies" noindex />
 
       <main className="flex w-full flex-col mb-16 items-center justify-center dark:text-light">
         <Layout className="pt-12 mt-8 flex items-center justify-center !p-4 !md:p-12 !lg:p-32 ">

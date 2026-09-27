@@ -1,11 +1,10 @@
-import Head from "next/head";
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 import Layout from "../../components/Layout";
 import AnimatedText from "../../components/AnimatedText";
+import Seo from "../../components/Seo";
 import { getArticleBySlug, getArticleSlugs } from "../../lib/articles";
-import { absoluteUrl } from "../../lib/site";
 
 const FramerImage = motion(Image);
 
@@ -21,35 +20,23 @@ const ArticlePage = ({ article }) => {
     seoDescription,
     ogTitle,
     ogDescription,
-    keywords,
     contentHtml,
-    canonicalUrl,
-    ogImage
+    url
   } = article;
 
   return (
     <>
-      <Head>
-        <title>{seoTitle}</title>
-        <meta name="description" content={seoDescription} />
-        {keywords.length > 0 && (
-          <meta name="keywords" content={keywords.join(", ")} />
-        )}
-        <link rel="canonical" href={canonicalUrl} />
-        <meta property="og:title" content={ogTitle} />
-        <meta property="og:description" content={ogDescription} />
-        {ogImage && <meta property="og:image" content={ogImage} />}
-        {ogImage && <meta property="og:image:alt" content={imageAlt} />}
-        <meta property="og:type" content="article" />
-        <meta property="og:url" content={canonicalUrl} />
-        <meta property="article:published_time" content={date} />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={ogTitle} />
-        <meta name="twitter:description" content={ogDescription} />
-        {ogImage && <meta name="twitter:image" content={ogImage} />}
-        <meta name="geo.region" content="NO-INN" />
-        <meta name="geo.placename" content="Hamar" />
-      </Head>
+      <Seo
+        title={seoTitle}
+        description={seoDescription}
+        path={url}
+        image={image}
+        imageAlt={imageAlt}
+        type="article"
+        publishedTime={date}
+        ogTitle={ogTitle}
+        ogDescription={ogDescription}
+      />
       <main className="flex w-full flex-col mb-16 items-center justify-center dark:text-light">
         <Layout className="pt-12 mt-8 flex items-center justify-center !p-4 !md:p-12 !lg:p-32">
           <div className="flex w-2/3 md:w-full flex-col mb-16 items-center">
@@ -98,12 +85,7 @@ export async function getStaticProps({ params }) {
 
   return {
     props: {
-      article: {
-        ...article,
-        canonicalUrl: absoluteUrl(article.url),
-        // Facebook and other crawlers cannot resolve "/images/...".
-        ogImage: article.image ? absoluteUrl(article.image) : ""
-      }
+      article
     }
   };
 }
