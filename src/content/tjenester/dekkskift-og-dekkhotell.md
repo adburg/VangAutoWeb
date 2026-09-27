@@ -4,7 +4,7 @@ title: "Dekkskift og trygg oppbevaring av dekkene dine"
 seoTitle: "Dekkskift og dekkhotell i Hamar | Vang Auto"
 seoDescription: "Dekkskift og dekkhotell like utenfor Hamar. Vang Auto vasker og sjekker dekkene og lagrer dem til neste sesong. Nye dekk og felger via Dekkpartner."
 summary: "Skift av sommer- og vinterdekk, vask og oppbevaring på dekkhotell. Nye dekk og felger via Dekkpartner."
-image: "/images/services/dekkskift.png"
+image: "/images/services/dekkhotell.jpg"
 imageAlt: "Mekaniker skrur fast et hjul på en varebil med muttertrekker, med et ekstra dekk ved siden av"
 order: 5
 relatedServices:

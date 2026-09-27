@@ -4,7 +4,7 @@ title: "Service og reparasjon på alle bilmerker"
 seoTitle: "Bilservice og reparasjon i Hamar | Vang Auto"
 seoDescription: "Service og reparasjon på alle bilmerker, også elbil og hybrid. Vang Auto følger produsentens krav, så nybilgarantien gjelder som før. Like utenfor Hamar."
 summary: "Service etter produsentens program og reparasjon på alle bilmerker, også elbil og hybrid. Nybilgarantien gjelder som før."
-image: "/images/services/bilreparasjon.png"
+image: "/images/services/¨service.jpg"
 imageAlt: "Mekaniker skifter bremser på en grå stasjonsvogn som står på løftebukk"
 order: 2
 relatedServices:
