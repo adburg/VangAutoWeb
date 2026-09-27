@@ -6,7 +6,7 @@ excerpt: "Det er vanlig å tro at klimaanlegget får all oppmerksomheten det tre
 image: "/images/articles/ac.jpg"
 imageAlt: "Klimaanlegg i bil klargjøres for sommeren"
 seoTitle: "AC-Service & Klimaanlegg på Bil nær Hamar | Vang Auto"
-seoDescription: "Er klimaanlegget i bilen klar for sommeren? Vang Auto bilverksted nær Hamar, Løten og Elverum tilbyr AC-service, rens og skifte av pollenfilter til gode priser. Bestill time nå!"
+seoDescription: "Er klimaanlegget i bilen klart for sommeren? Les om AC-service, rens av anlegget og skift av pollenfilter hos Vang Auto, like utenfor Hamar."
 ogDescription: "AC-service, klimarens og pollenfilter til bilen din. Vang Auto bilverksted nær Hamar, Løten og Elverum."
 keywords:
   - "AC service bil Hamar"

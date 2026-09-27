@@ -6,7 +6,7 @@ excerpt: "Vang Auto er stolte av å annonsere at vi nå er miljøsertifisert! Et
 image: "/images/articles/miljofyrtarn.jpg"
 imageAlt: "Vang Auto er sertifisert som Miljøfyrtårn"
 seoTitle: "Miljøsertifisert Bilverksted Hamar | Vang Auto Miljøfyrtårn"
-seoDescription: "Vang Auto bilverksted nær Hamar er nå Miljøfyrtårn-sertifisert! Vi tilbyr grønn service bil, EU-kontroll og dekkskifte med fokus på bærekraft. Bestill time hos oss i dag."
+seoDescription: "Vang Auto er sertifisert som Miljøfyrtårn. Les om prosessen, miljøarbeidet og hva sertifiseringen betyr for verkstedet like utenfor Hamar."
 ogDescription: "Vang Auto bilverksted nær Hamar er Miljøfyrtårn-sertifisert. Grønn service, EU-kontroll og dekkskifte."
 keywords:
   - "miljøsertifisert bilverksted Hamar"

@@ -6,7 +6,7 @@ excerpt: "Det er 16 gode og krevende år siden Per Asbjørn Berget overtok den d
 image: "/images/articles/sekstito.jpg"
 imageAlt: "Vang Auto gjennom 62 år"
 seoTitle: "62 Begivenhetsrike År – Vang Auto Bilverksted Hamar"
-seoDescription: "Historien om Vang Auto bilverksted nær Hamar – en familiebedrift siden 1960. Over 60 år med EU-kontroll, service bil og dekkskifte for kunder i Hamar, Løten og Elverum."
+seoDescription: "Historien om Vang Auto, en familiebedrift like utenfor Hamar siden 1960. Les om 62 år med verkstedsdrift og generasjonsskiftet i ledelsen."
 ogDescription: "Historien om Vang Auto bilverksted – familiebedrift nær Hamar siden 1960. Over 60 år med EU-kontroll, service og dekkskifte."
 keywords:
   - "Vang Auto 62 år"

@@ -6,7 +6,7 @@ excerpt: "Når sommeren kommer, er det viktig å forberede bilen din for varmere
 image: "/images/articles/feriebil.jpg"
 imageAlt: "Bil klar for sommerferie"
 seoTitle: "Ferieklar Bil – Bilservice & Sjekk nær Hamar | Vang Auto"
-seoDescription: "Gjør bilen klar til ferien med service hos Vang Auto bilverksted nær Hamar, Løten og Elverum. Vi sjekker dekk, bremser, olje og AC. Bestill time tidlig – verkstedet fyller seg fort!"
+seoDescription: "Gjør bilen klar til ferien. Les hva du bør sjekke før turen: dekk, bremser, olje og klimaanlegg. Tips fra Vang Auto, like utenfor Hamar."
 ogDescription: "Gjør bilen klar til ferien med service hos Vang Auto bilverksted nær Hamar, Løten og Elverum. Dekk, bremser, olje og AC."
 keywords:
   - "ferieklar bil Hamar"

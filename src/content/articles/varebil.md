@@ -6,7 +6,7 @@ excerpt: "-Vi har både utstyr, plass og kompetanse til å reparere og vedlikeho
 image: "/images/articles/varebil.png"
 imageAlt: "Bobil på verksted hos Vang Auto"
 seoTitle: "Verksted for Varebil & Bobil nær Hamar | Vang Auto"
-seoDescription: "Vang Auto reparerer og vedlikeholder varebiler og bobiler opptil 7,5 tonn. Autorisert Iveco-verksted nær Hamar, Løten og Elverum. EU-kontroll og service på alle merker og modeller."
+seoDescription: "Vang Auto reparerer og vedlikeholder bobiler og varebiler inntil 7,5 tonn, like utenfor Hamar. Iveco-serviceforhandler med service på alle merker."
 ogDescription: "Vang Auto reparerer varebiler og bobiler opptil 7,5 tonn. Autorisert Iveco-verksted nær Hamar, Løten og Elverum."
 keywords:
   - "varebil verksted Hamar"

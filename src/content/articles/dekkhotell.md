@@ -6,7 +6,7 @@ excerpt: "Hos Vang Auto kan du nå sjekke inn på dekkhotell. Jeg ser for meg at
 image: "/images/articles/dekkhotell.jpg"
 imageAlt: "Dekk på lager i dekkhotellet til Vang Auto"
 seoTitle: "Dekkhotell & Dekkskifte nær Hamar | Vang Auto"
-seoDescription: "Spar plass og tid med dekkhotell hos Vang Auto bilverksted nær Hamar og Løten. Vi skifter, vasker og oppbevarer dekkene dine. Offisiell Dekkpartner med gode priser på nye dekk."
+seoDescription: "Dekkhotell hos Vang Auto like utenfor Hamar. Dekkene blir skiftet, vasket og lagret til neste sesong. Som Dekkpartner har verkstedet et bredt utvalg av dekk."
 ogDescription: "Dekkhotell og dekkskifte hos Vang Auto nær Hamar og Løten. Offisiell Dekkpartner – vi skifter, vasker og oppbevarer dekkene dine."
 keywords:
   - "dekkhotell Hamar"
