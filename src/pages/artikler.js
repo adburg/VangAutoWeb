@@ -17,9 +17,13 @@ const Artikler = ({ featured, rest }) => {
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
         <Layout className="pt-10">
           <AnimatedText
-            text="Artikler"
-            className="mb-16 sm:mb-8 sm:!text-6xl xs:!text-4xl"
+            text="Artikler om bil og verksted"
+            className="mb-6 !normal-case sm:mb-4 sm:!text-6xl xs:!text-4xl"
           />
+          <p className="mx-auto mb-16 max-w-3xl text-center text-lg font-medium md:text-base sm:mb-8">
+            Råd om dekk, EU-kontroll, service og vedlikehold fra verkstedet like
+            utenfor Hamar. Nyeste artikler står først.
+          </p>
           <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:gap-y-16 md:grid-cols-1">
             {featured.map((article) => (
               <FeaturedArticle key={article.slug} article={article} />

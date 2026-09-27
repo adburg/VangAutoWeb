@@ -4,6 +4,7 @@ import AnimatedText from "../components/AnimatedText";
 import Layout from "../components/Layout";
 import omPic from "../../public/images/profile/omoss.jpg";
 import Image from "next/image";
+import Link from "next/link";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Skills from "../components/Skills";
 import Historie from "../components/Historie";
@@ -68,7 +69,7 @@ const Omoss = () => {
                 med kjøp og salg av nye og brukte Iveco-kjøretøy.
               </p>
               <h3 className="font-bold">Meca</h3>
-              <p className="font-medium">
+              <p className="font-medium mb-4">
                 Vi er tilknyttet Meca verkstedkjeden som har bilverksteder
                 utover hele landet. Dette medfører at vi oppfyller en
                 kvalitetsstandard bestemt av Meca. Vi benytter deler fra Meca
@@ -76,13 +77,36 @@ const Omoss = () => {
                 gjør at delenes kan leveres med garanti som gir trygghet for deg
                 som kunde.
               </p>
+              <h3 className="font-bold">Dekkpartner</h3>
+              <p className="font-medium mb-4">
+                Vang Auto er Dekkpartner, med et bredt utvalg av dekk og felger.
+                Du kan også bestille på dekkpartner.no og få dem montert på
+                verkstedet. Les mer om{" "}
+                <Link href="/tjenester/dekkskift-og-dekkhotell" className="underline underline-offset-2">
+                  dekkskift og dekkhotell
+                </Link>
+                .
+              </p>
+              <h3 className="font-bold">Miljøfyrtårn, elbil og flåte</h3>
+              <p className="font-medium">
+                Vang Auto er sertifisert som{" "}
+                <Link href="/miljo" className="underline underline-offset-2">
+                  Miljøfyrtårn
+                </Link>{" "}
+                og elbilsertifisert gjennom MECA. Verkstedet er også flåteverksted
+                for bedrifter med flere biler. Se alle{" "}
+                <Link href="/tjenester" className="underline underline-offset-2">
+                  tjenestene våre
+                </Link>
+                .
+              </p>
             </div>
 
             <div className="col-span-4 mt-4 xl:mt-8 2xl:mt-1 lg:mt-24 md:mt-8 sm:mt-4 relative flex justify-center h-max rounded-3xl border-2 border-solid border-dark dark:border-light bg-light p-4 sm:p-2 dark:bg-dark 2xl:col-span-4 md:order-1 md:col-span-9">
               <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light" />
               <Image
                 src={omPic}
-                alt="Vang Auto"
+                alt="De ansatte i Vang Auto foran verkstedet med MECA- og Iveco-skilt"
                 className="w-full h-auto rounded-2xl "
                 priority={true}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
