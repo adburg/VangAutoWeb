@@ -7,6 +7,7 @@ import Breadcrumbs from "../../components/Breadcrumbs";
 import Layout from "../../components/Layout";
 import Seo from "../../components/Seo";
 import { formatNorwegianDate } from "../../lib/dates";
+import { breadcrumbSchema, serviceSchema } from "../../lib/schema";
 import { inSentence } from "../../lib/text";
 import {
   getAllServices,
@@ -37,6 +38,7 @@ const ServicePage = ({ service, relatedServices, relatedArticles, breadcrumbs })
         path={url}
         image={image}
         imageAlt={imageAlt}
+        jsonLd={[serviceSchema(service), breadcrumbSchema(breadcrumbs)]}
       />
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-10">

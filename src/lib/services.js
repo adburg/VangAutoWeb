@@ -155,17 +155,19 @@ function containsTerm(text, terms) {
 }
 
 /**
- * How well an article matches a list of terms: 2 when a term is in the title
- * or excerpt, 1 when it is only in the keywords, 0 for no match. Terms must
- * start a word, so "rust" does not match "utrustet" but "dekk" matches
- * "dekkhotell". Keywords rank lower because older articles list many loosely
- * related phrases there.
+ * How well an article matches a list of terms: a hit in the title counts 3,
+ * in the excerpt 2 and in the keywords 1; 0 means no match. Terms must start
+ * a word, so "rust" does not match "utrustet" but "dekk" matches "dekkhotell".
+ * Keywords weigh least because older articles list many loosely related
+ * phrases there.
  */
 function matchScore(article, terms) {
   if (!terms?.length) return 0;
-  if (containsTerm(`${article.title} ${article.excerpt}`, terms)) return 2;
-  if (containsTerm((article.keywords || []).join(" "), terms)) return 1;
-  return 0;
+  return (
+    (containsTerm(article.title, terms) ? 3 : 0) +
+    (containsTerm(article.excerpt, terms) ? 2 : 0) +
+    (containsTerm((article.keywords || []).join(" "), terms) ? 1 : 0)
+  );
 }
 
 function toArticleLink({ slug, url, title, date }) {

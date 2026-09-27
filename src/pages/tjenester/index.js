@@ -7,6 +7,7 @@ import { LinkArrow } from "../../components/Icons";
 import Layout from "../../components/Layout";
 import Seo from "../../components/Seo";
 import ServiceCard from "../../components/ServiceCard";
+import { breadcrumbSchema } from "../../lib/schema";
 import { getAllServices } from "../../lib/services";
 
 const KONTROLLFRIST_URL =
@@ -24,6 +25,7 @@ const Tjenester = ({ services }) => {
         title="Verkstedtjenester i Hamar"
         description="Se alle tjenestene hos Vang Auto: EU-kontroll, service og reparasjon, AC-service, firehjulskontroll, dekkskift, karosseri og verksted for varebil og bobil."
         path="/tjenester"
+        jsonLd={[breadcrumbSchema(BREADCRUMBS)]}
       />
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-10">
