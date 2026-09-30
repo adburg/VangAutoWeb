@@ -123,7 +123,7 @@ Gjelder all tekst på nettstedet, også frontmatter og alt-tekster.
 
 - **Fritt verkstedvalg:** nybilgarantien gjelder som før når arbeidet utføres og dokumenteres etter
   produsentens krav.
-- **MECA:** offentlig godkjent verksted, deler av original kvalitet, dokumentert arbeid, 12 måneders
+- **MECA:** offentlig godkjent verksted, deler av original kvalitet eller tilsvarende, dokumentert arbeid, 12 måneders
   MECA Veihjelp inkludert ved service, uten egenandel.
 - **Dekkpartner:** bredt utvalg dekk og felger. Kan bestilles på dekkpartner.no og monteres hos Vang Auto.
 

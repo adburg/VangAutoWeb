@@ -30,7 +30,7 @@ EU-kontrollen er en lovpålagt kontroll av kjøretøyet ditt. Hos Vang Auto tar 
 
 ## Hva som blir kontrollert
 
-Kontrollen har to deler: en trafikksikkerhetsdel og en miljødel. I trafikksikkerhetsdelen sjekkes blant annet lys, sikt, hjul, belter og bremser. I miljødelen måles støy og avgasser. Statens vegvesen har en fullstendig oversikt over [hva som sjekkes på en EU-kontroll](https://www.vegvesen.no/kjoretoy/eie-og-vedlikeholde/eu-kontroll/hva-sjekkes/).
+Kontrollen har to deler: en trafikksikkerhetsdel og en miljødel. I trafikksikkerhetsdelen sjekkes blant annet lys, sikt, hjul, styring, sikkerhetsbelter og bremser. I miljødelen måles støy og avgasser. Statens vegvesen har en fullstendig oversikt over [hva som sjekkes på en EU-kontroll](https://www.vegvesen.no/kjoretoy/eie-og-vedlikeholde/eu-kontroll/hva-sjekkes/).
 
 Har du elbil, må du ta med den løse ladekabelen. Den blir også kontrollert. Du trenger ikke ta med begge dekksettene, bare de som står på bilen.
 

@@ -42,7 +42,7 @@ Innholdet følger produsentens serviceprogram for bilmodellen og kilometerstande
 
 ## MECA-verksted
 
-Vang Auto er et MECA-verksted. MECA-verksteder er offentlig godkjente, bruker deler av original kvalitet og dokumenterer arbeidet. Når du tar service, får du 12 måneders MECA Veihjelp inkludert, uten egenandel. Veihjelpen gjelder blant annet ved teknisk feil, punktering og tomt for drivstoff.
+Vang Auto er et MECA-verksted. MECA-verksteder er offentlig godkjente, bruker deler av original kvalitet eller tilsvarende og dokumenterer arbeidet. Når du tar service, får du 12 måneders MECA Veihjelp inkludert, uten egenandel. Veihjelpen gjelder blant annet ved teknisk feil, punktering og tomt for drivstoff.
 
 ## Elbil og hybrid
 

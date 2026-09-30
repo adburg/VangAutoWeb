@@ -30,7 +30,7 @@ const VALUE_POINTS = [
   },
   {
     heading: "MECA-verksted",
-    text: "Vang Auto er et offentlig godkjent MECA-verksted. Arbeidet dokumenteres, og delene holder original kvalitet. Ved service får du 12 måneders MECA Veihjelp inkludert, uten egenandel."
+    text: "Vang Auto er et offentlig godkjent MECA-verksted. Arbeidet dokumenteres, og delene er av original kvalitet eller tilsvarende. Ved service får du 12 måneders MECA Veihjelp inkludert, uten egenandel."
   },
   {
     heading: "Dekkpartner",
